@@ -29,7 +29,7 @@ Im nächsten Teil soll dann die Dosisverteilung berechnet werden. Dies geschieht
 Als Hilfe werden in diesem Aufgabenteil drei unterschiedliche Dosisverteilung in der Anleitung hinzugefügt. Diese sollen mit Hilfe des Bestrahlungsplanungsprogramms invers rekonstruiert werden. In diesem Fall sollen die Felder die Größe $\SI{5,5}{\centi\meter}$ x $\SI{5,5}{\centi\meter}$ und eine Photonenenergie von $\SI{6}{\mega\volt}$ besitzen.
 
 \subsubsection{Erste Dosisverteilung}
-In der Abbildung \ref{fig:ersteverteilung} ist die erste Dosisverteilung zu sehen. Die Dosisverteilung wird mit Hilfe von vier gleich gewichteten Strahlenfelder erzeugt und jedes Strahlenfeld besitzt eine Gantry-Rotation von $0^\circ$, $90^\circ$, $180^\circ$ und $270^\circ$. Das PTV befindet sich in der Mitte des Wasserphantoms. Die Strahlenfelder werden in diesem Fall mit MLCs für das PTV ausgerichtet. Dabei werden die MLCs mit einem Sicherheitssaum von $\SI{0.5}{\centi\meter}$ an das PTV angepasst. Die gegebene Dosisverteilung ist in der Abbildung \ref{abb:ersteverteilung} gezeigt.
+In der Abbildung \ref{fig:ersteverteilung} ist die erste Dosisverteilung zu sehen. Die Dosisverteilung wird mit Hilfe von vier gleich gewichteten Strahlenfelder erzeugt und jedes Strahlenfeld besitzt eine Gantry-Rotation von $0^\circ$, $90^\circ$, $180^\circ$ und $270^\circ$. Das PTV befindet sich in der Mitte des Wasserphantoms. Die Strahlenfelder werden in diesem Fall mit MLCs für das PTV ausgerichtet. Dabei werden die MLCs mit einem Sicherheitssaum von $\SI{0.5}{\centi\meter}$ an das PTV angepasst. Die vorgegebene Dosisverteilung ist zum Vergleich in der Abbildung \ref{abb:ersteverteilung} gezeigt.
 
 \begin{figure}[H]
 	\centering
@@ -112,7 +112,7 @@ Für die Darstellung der Dosisverteilung im Phantom, wird ein Querprofil erstell
 Im weiteren Verlauf soll das Feld auf $\SI{6}{\centi\meter}$ x $\SI{6}{\centi\meter}$ für eine sinnvollere Bestrahlung des PTVs  verkleinert werden. Diese Dosisverteilung ist in
 Abbildung \ref{fig:a2_4} dargestellt. Die Dosisberechnung zeigt, dass die $\SI{95}{\percent}$-Isodosenlinie das gesamte PTV nicht umschließt.
 Der Grund dafür ist, dass die Dosisverteilung auf den Referenzpunkt, der sich im Zentrum des
-PTVs befindet, normiert ist. Das bedeutet das die $\SI{100}{\percent}$-Isodosenlinie immer
+PTVs befindet, normiert ist. Dies bedeutet, dass die $\SI{100}{\percent}$-Isodosenlinie immer
 durch den Referenzpunkt läuft. Da innerhalb des PTV die Strahlung weiter abgeschwächt
 wird, wird hinter dem Referenzpunkt auch weniger Dosis deponiert. In diesem
 Fall wird die Photonenstrahlung bereits in dem PTV so stark abgeschwächt, dass die
@@ -131,7 +131,7 @@ definiert wurde. Das bedeutet für das Programm ist außerhalb des Wasserphantom
 dort kann keine Dosis deponiert werden.
 Innerhalb des Wasserphantoms ist der CT-Wert von Wasser eingestellt und somit wird dort
 Dosis deponiert. Nach dem Eintritt der Photonenstrahlung in das Wasserphantom steigt die
-Dosis zunächst an und erreicht erst in etwa $\SI{1.5}{\centi\meter}$ sein Maximum.
+Dosis zunächst an und erreicht erst in etwa $\SI{1.5}{\centi\meter}$ Tiefe sein Maximum.
 Das liegt an dem Dosisaufbaueffekt, der bei hochenergetischen Photonen ab etwa
 $\SI{1}{\mega\eV}$ zu beobachten ist. Dieser Effekt kann mit dem Klein-Nishima-Wirkungsquerschnittes beschrieben werden, da die Wahrscheinlichkeit für Vorwärtsstreuung
 mit steigender Photonenenergie zunimmt. Das bedeutet, dass bei Eintritt in das
@@ -173,7 +173,7 @@ gewichtet also mit $42,8\%$, das Feld bei $90°$ doppelt gewichtet also mit $28,
 die restlichen beiden Felder mit jeweils $14,3\%$.
 
 Bei der doppelten Gewichtung eines Feldes fällt bereits auf, dass sich die Dosisverteilung
-verändert. Das doppelt gewichtete Feld trägt stärker zur gesamten Dosisverteilung
+verändert. Das doppelt gewichtete Feld trägt stärker zur gesamten Dosisverteilung bei
 als die anderen drei Felder. Somit ergibt sich eine asymmetrische Dosisverteilung
 in dem PTV, obwohl die Feldanordnung symmetrisch ist.
 Bei dem zweiten Beispiel ist dieses Verhalten noch besser zu sehen, da gleich zwei
@@ -184,7 +184,7 @@ angepasst. Allerdings wird durch die starke Gewichtung von Feld 1 auch außerhal
 des PTV eine hohe Dosis deponiert.
 Die Variation der Feldgewichtungen könnte in der Klinik dazu verwendet werden um die
 Dosisverteilung besser an das Zielvolumen anzupassen. Dadurch können auch Risikoorgane
-geschont werden, wenn die Felder die zu einer Dosis in einem Risikoorgan führen
+geschont werden, wenn die Felder die zu einer Dosis in einem Risikoorgan führen,
 schwächer gewichtet werden.
 Bei der Variation der Feldgewichtungen muss allerdings darauf geachtet werden, dass
 durch eine höhere Gewichtung eines Feldes die Dosis außerhalb des Zielvolumens nicht
@@ -249,7 +249,7 @@ homogene Dosisdeposition in dem im Zentrum liegenden PTV erreicht werden.
 Ein Nachteil an der Verwendung von mehreren Feldern für die
 Bestrahlung ist, dass dadurch die Bestrahlung länger dauert. Durch
 die verschiedenen Einstrahlrichtungen und dadurch, dass das Dosismaximum der
-einzelnen Felder sich kurz nach Eintritt in den Körper einstellt wird in mehr
+einzelnen Felder sich kurz nach Eintritt in den Körper einstellt wird außerdem in mehr
 gesunden Gewebe eine Dosis deponiert wenn mehrere Felder verwendet werden.
 
 
