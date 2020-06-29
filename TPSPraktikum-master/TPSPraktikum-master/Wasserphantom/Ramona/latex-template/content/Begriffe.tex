@@ -1,0 +1,68 @@
+\section{Begriffserklärung}\label{Begriffe}
+
+\textbf{Planning Target Volume (PTV):}
+
+Vor der Bestrahlungsplanung muss zunächst von einem Arzt das Tumorvolumen (GTV)
+in dem CT-Bild eingezeichnet werden. Da es allerdings sein kann, dass diagnostisch
+nicht sichtbare Bereiche mit Tumorzellen infiltriert sein können wird das GTV zu
+einem Klinischen Zielvolumen (CTV) erweitert. Bei der Lage des Tumors gibt es
+allerdings weitere Unsicherheiten.
+Zum einen Verformung oder Verschiebung des Tumors aufgrund von Atmung oder Herzschlag und
+zum anderen Lagerungsunsicherheiten bei der Bestrahlung. Aus diesem Grund wird
+das PTV definiert, welches diese Unsicherheiten möglichst mit berücksichtigt. \cite{grundlagen}\\
+
+\textbf{CT-Wert:}
+
+Bei der Aufnahme von CT-Bildern, wird die Abschwächung der Photonenstrahlung durch
+die Hounsfield-Skala beschrieben. Der CT-Wert kann dabei aus den Schwächungskoeffizienten
+des Gewebes $\mu_\text{Gewebe}$ und von Wasser $\mu_\text{Wasser}$ bestimmt werden.
+
+\begin{equation*}
+  \text{CT-Wert} = \frac{\mu_\text{Gewebe} - \mu_\text{Wasser}}{\mu_\text{Wasser}} \cdot 1000 \text{HU}
+\end{equation*}
+
+In der Praxis geht diese Skala von etwa $-1000$ HU bis $3000$ HU. In diesem Fall ist der
+CT-Wert von Wasser $0$ HU, von Luft $-1000$ HU, von Fett $-100$ HU und Knochen etwa $1000$ HU. \cite{HU}\\
+
+\textbf{Referenzpunkt:}
+
+Der Referenzpunkt ist der Punkt an dem das Strahlenfeld die im Bestrahlungsplanungsprogramm
+eingestellte Geometrie und Größe besitzt. Der Referenzpunkt wird dabei meistens in
+das Zentrum des Zielvolumens gelegt. \cite{grundlagen}\\
+
+\textbf{Multi-Leaf-Collimator (MLC):}
+
+Der MLC ist eine Möglichkeit nicht rechteckige Strahlenfelder zu ermöglichen.
+Dieser Besteht aus einzelnen Lamellen, wobei jede einzeln von einem eigenen Motor
+gesteuert werden kann. Die Lamellen bestehen meistens aus Wolfram.
+Die einzelnen Lamellen können bei der Bestrahlung so verstellt werden, dass das
+Strahlenfeld an die Tumorform angepasst wird. \cite{grundlagen}\\
+
+\textbf{Isodosenlinien und -flächen:}
+
+Bei Isodosenlinien ist die Dosis entlang dieser Linie konstant. Bei Isodosenflächen
+ist die Dosis bei einer dreidimensionalen Dosisverteilung auf diesen Flächen konstant. \cite{grundlagen}\\
+
+\textbf{Querprofil und Tiefendosiskurven (TDK):}
+
+Ein Querprofil umfasst die Dosisverteilung eines Strahlenfeldes senkrecht zum Zentralstrahl und entlang einer
+der Feldachsen. Eine TDK hingegen beschreibt den Dosisverlauf entlang des Zentralstrahls. \cite{grundlagen}\\
+
+\textbf{Dosis-Volumen-Histogramm (DVH):}
+
+Bei einem Dosis-Volumen-Histogramm wird die relative Dosis, die ein bestimmtes
+Strukturvolumen erhält, gegen das relative Volumen dieser Struktur
+dargestellt. Dadurch wird die räumliche Dosisverteilung eines Volumens auf
+eine zweidimensionale Darstellung reduziert. Durch diese Darstellung der
+Dosisverteilung geht räumliche Information verloren, allerdings kann mit
+einem DVH die geplante Dosisverteilung effektiv beurteilt werden.
+DVHs werden in der Klinik dafür eingesetzt um zu überprüfen ob das
+PTV die gewünschte Dosis erhält und ob die Risikoorgane hinreichend geschont
+werden. \cite{grundlagen}\\
+
+\textbf{Normierungspunkt:}
+
+Der Normierungspunkt ist ein Punkt im Zielvolumen, der als Bezugspunkt für die
+Dosisnormierung verwendet wird. \cite{grundlagen}
+
+\newpage

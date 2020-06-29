@@ -1,0 +1,55 @@
+\textbf{4. Erläutern Sie den Unterschied zwischen seriellen und parallelen Organen und
+welche Bedeutung es für die Festlegung von Toleranzdosen (QUANTEC) hat.}
+
+Organe werden in Untereinheiten aufgeteilt. Anhand dieser Aufteilung können Organe in
+serielle oder parallele Organe aufgeteilt werden. Bei seriellen Organen sind die Untereinheiten
+liegen die Untereinheiten in serieller Form vor.
+Das bedeutet, wenn eine dieser Untereinheiten beschädigt wird, ist das gesamte Organ
+nicht mehr im Stande seine Funktion zu erfüllen. Dazu zählt zum Beispiel das Rückenmark.
+
+Bei parallelen Organen liegen diese Untereinheiten parallel vor. Dabei kann das Organ auch
+bei Beschädigung von einer dieser Untereinheiten seine Funktion, im gewissen Rahmen, noch erfüllen.
+Zu diesen Organen zählt zum Beispiel die Lunge.
+
+Es gibt auch Organe, die sowohl seriell als auch parallele Untereinheiten haben, wie zum Beispiel das Herz.
+
+Bei seriellen Organen hat Anteil des bestrahlten Volumens nur einen geringen Einfluss auf
+die Toleranzdosis. Bei dem Rückenmark ist die Toleranzdosis zum Beispiel für die Dosis
+pro $\SI{5}{\centi\meter}$, pro $\SI{10}{\centi\meter}$ und pro $\SI{20}{\centi\meter}$
+sehr ähnlich.
+
+Bei parallelen Organen hingegen, können kleine Volumenanteile hohen Dosen ausgesetzt
+werden. Deshalb verringert sich die Toleranzdosis stark mit dem bestrahlten Volumen
+des Organs. \\\\
+
+\textbf{5. Überlegen Sie sich, welche Aufgaben in Eclipse mit dem ”Konturierungsmodul”
+und welche mit dem Modul ”perkutane Bestrahlungsplanung” erledigt werden können.}
+
+Mit dem Konturierungsmodul können in den CT-Bildern des Patienten der Tumor, also das Tumorvolumen und das Klinische Zielvolumen,
+Risikoorgane und anatomische Strukturen eingezeichnet werden. Dadurch werden die CT-Bilder
+des Patienten segmentiert.
+
+Mit dem Modul der perkutanen Bestrahlungsplanung, wird der tatsächliche Bestrahlungsplan
+erstellt. Der Plan wird so erstellt, dass das CTV die erforderliche therapeutische Dosis erhält und
+die Toleranzwerte der Risikoorgane nicht überschritten werden. \\\\
+
+\textbf{6. Erläutern Sie einen Berechnungsalgorithmus Ihrer Wahl. Den Pencil-Beam-Algorithmus:}
+
+Dieser Algorithmus simuliert die Wechselwirkung von Photonen mit Materie, indem der
+Photonenstrahl in Elementarstrahlen zerlegt wird. Deren Dosisdeposition wird dabei
+separat berechnet. Bei diesem Algorithmus wird die Form und Gewichtung des Strahlungsfeldes
+durch die strahlenformenden Komponenten des Linearbeschleunigers bestimmt. Dazu gehören
+Blenden, Blöcke oder Lamellen des Kollimators.
+Beim Eintritt in das Gewebe kommt es zu Aufweichung der Einzelstrahlen und zu einer
+tropfenförmigen Dosisverteilung im Gewebe.
+Die Dosisdeposition der Strahlen in tieferen Gewebeschichten wird vereinfacht. Dabei wird
+die mittlere Dichte in einem Wegintervall verwendet um die Strahlschwächung zu berechnen.
+
+Durch die Vereinfachungen, die in diesem Algorithmus gemacht werden kommt es zu Fehlerquellen.
+Vor allem im Feldgrenzbereich kommt es zu Abweichungen. \\\\
+
+\textbf{Wie können Sie das in Abbildung 1.1 dargestellte Volumen mit 3 Feldern
+homogen bestrahlen.}
+
+Man könnte das Volumen mit einem Feld von vorne und mit zwei Feldern von jeweils beiden Seiten Bestrahlen.
+Durch diese Bestrahlung würden das Rektum geschont werden. 
