@@ -20,25 +20,37 @@ Das PTV ist in den CT-Daten bereits eingezeichnet und als nächstes wurde die Ko
 
 \section{Auswertung und Diskussion}
 \label{sec:AuswertundDiskussion}
+In den Abbildungen \ref{fig:ellenbogenx}, \ref{fig:ellenbogeny} und \ref{fig:ellenbogenz} sind die Dosisverteilungen des Ellenbogens in der Transversal-, Sagittal- und Frontalansicht zu sehen. In den Abbildungen ist zu erkennen, dass die $\SI{95}{\percent}$ Isodosenlinie zumindest in der Frontal- als auch der Transversalansicht nicht ganz das rote eingezeichnete PTV umschließt. Bei der Sagittalansicht wird das dennoch eingehalten. 
+Damit das PTV mit der $\SI{95}{\percent}$ Isodosenlinie umgeschlossen werden kann, wäre es möglich für eine bessere Dosisverteilung zumindest die MLCs etwas genauerer einzustellen, die Felder zu vergrößern oder weitere Felder zu erzeugen.
 
 \begin{figure}[htpb]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../Bilder/EllenbogenX}
-	\caption{}
+	\caption{Darstellung der Dosisverteilung in der Frontalansicht des Ellenbogens.}
 	\label{fig:ellenbogenx}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../Bilder/EllenbogenY}
-	\caption{}
+	\caption{Darstellung der Dosisverteilung in der Sagittalansicht des Ellenbogens.}
 	\label{fig:ellenbogeny}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../Bilder/EllenbogenZ}
-	\caption{}
+	\caption{Darstellung der Dosisverteilung in der Transversalansicht des Ellenbogens.}
 	\label{fig:ellenbogenz}
+\end{figure}
+
+Für eine bessere Beurteilung wurde ein Dosis-Volumen-Histogramm in der Abbildung \ref{fig:dvhellenbogeneinzel} erstellt. Die maximale Dosis, die bis zu $\SI{106}{\percent}$ im PTV betragen soll, liegt hier bei $\SI{105,6}{\percent}$ und wurde dementsprechend eingehalten. Das umliegende Gewebe wird auch geschont. Die minimale Dosis, die im PTV deponiert wird, liegt bei $\SI{85,8}{\percent}$. 
+Das bedeutet, dass das gesamte PTV mit der $\SI{95}{\percent}$ - Isodosenlinie nicht bestrahlt wurde. Eine Möglichkeit dafür, wäre auf die Frontal- und Transversalansicht zurückzuführen, da dort das PTV nicht ganz umschlossen wurde. Allerdings ist das nur ein geringer Teil, der in der DVH nicht zu sehen ist. Wenn $\SI{100}{\percent}$ des PTVs mit der $\SI{95}{\percent}$ Isodosenlinie umschlossen wären, dann wäre auch die minimale Dosis $\SI{95}{\percent}$. Was noch erkennbar ist, ist dass $\SI{99,85}{\percent}$ des PTVs noch $\SI{95}{\percent}$ Dosis bekommt.
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../Bilder/DVH_EllenbogenEinzel}
+	\caption{Zu sehen ist das Dosis-Volumen-Histogramm des Ellenbogens. In roter Farbe dargestellt ist das PTV und in grüner Farbe ist das Ellenbogen. Außerdem sind noch die einzelnen Isodosenlinie eingezeichnet.}
+	\label{fig:dvhellenbogeneinzel}
 \end{figure}
 

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  7 JUL 2020 16:48
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  7 JUL 2020 18:21
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.270 seconds (./header.tex
+luaotfload | main : initialization completed in 0.242 seconds (./header.tex
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -2494,20 +2494,35 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 21.
-<../Bilder/EllenbogenX.png, id=45, 1213.53375pt x 623.32875pt>
+<../Bilder/EllenbogenX.png, id=48, 1213.53375pt x 623.32875pt>
 File: ../Bilder/EllenbogenX.png Graphic file (type png)
 <use ../Bilder/EllenbogenX.png>
-Package luatex.def Info: ../Bilder/EllenbogenX.png  used on input line 26.
+Package luatex.def Info: ../Bilder/EllenbogenX.png  used on input line 28.
 (luatex.def)             Requested size: 292.7776pt x 150.38187pt.
-<../Bilder/EllenbogenY.png, id=46, 1213.53375pt x 623.32875pt>
+<../Bilder/EllenbogenY.png, id=49, 1213.53375pt x 623.32875pt>
 File: ../Bilder/EllenbogenY.png Graphic file (type png)
 <use ../Bilder/EllenbogenY.png>
-Package luatex.def Info: ../Bilder/EllenbogenY.png  used on input line 33.
+Package luatex.def Info: ../Bilder/EllenbogenY.png  used on input line 35.
 (luatex.def)             Requested size: 292.7776pt x 150.38187pt.
-<../Bilder/EllenbogenZ.png, id=47, 1213.53375pt x 623.32875pt>
+<../Bilder/EllenbogenZ.png, id=50, 1213.53375pt x 623.32875pt>
 File: ../Bilder/EllenbogenZ.png Graphic file (type png)
 <use ../Bilder/EllenbogenZ.png>
-Package luatex.def Info: ../Bilder/EllenbogenZ.png  used on input line 40.
+Package luatex.def Info: ../Bilder/EllenbogenZ.png  used on input line 42.
+(luatex.def)             Requested size: 292.7776pt x 150.38187pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 49.
+ [5<../Bilder/EllenbogenX.png><../Bilder/EllenbogenY.png>]
+<../Bilder/DVH_EllenbogenEinzel.png, id=63, 1213.53375pt x 623.32875pt>
+File: ../Bilder/DVH_EllenbogenEinzel.png Graphic file (type png)
+<use ../Bilder/DVH_EllenbogenEinzel.png>
+Package luatex.def Info: ../Bilder/DVH_EllenbogenEinzel.png  used on input line 
+52.
 (luatex.def)             Requested size: 292.7776pt x 150.38187pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
@@ -2518,7 +2533,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 21.
- [5<../Bilder/EllenbogenX.png><../Bilder/EllenbogenY.png>]
+ [6<../Bilder/EllenbogenZ.png><../Bilder/DVH_EllenbogenEinzel.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2542,30 +2557,30 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 26.
-[6<../Bilder/EllenbogenZ.png>]
+[7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 537EB772A37FE6C3F2531B8BE41A67DB;4876.
+(rerunfilecheck)             Checksum: D35E76F5B7DE428E52BD7A89BD9FD63B;5882.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: A0947C48D1F4F3AC048202C6ECE3BF56;485.
+(rerunfilecheck)             Checksum: 09931D101F6C59B4ED7596B45B67FBE0;485.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42378 strings out of 494412
+ 42388 strings out of 494412
  100000,1648299 words of node,token memory allocated
- 633 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 10 attribute, 75 glue_spec, 10 attr
-ibute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:375,3:97,4:45,5:224,6:13,7:3098,8:54,9:120,10:21,11:340,12
+ 629 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 9 attribute, 75 glue_spec, 9 attrib
+ute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:2,2:499,3:84,4:45,5:224,6:18,7:3098,8:47,9:134,10:21,11:340,12
 :1
- 45303 multiletter control sequences out of 65536+600000
- 156 fonts using 40433199 bytes
+ 45308 multiletter control sequences out of 65536+600000
+ 156 fonts using 40433663 bytes
  57i,7n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/tex
@@ -2577,10 +2592,10 @@ dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/texmf-dist/
 fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-dist/fonts
 /opentype/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/opentype
 /public/lm/lmroman12-bold.otf>
-Output written on main.pdf (6 pages, 796109 bytes).
+Output written on main.pdf (7 pages, 877959 bytes).
 
-PDF statistics: 158 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 131072)
+PDF statistics: 170 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 100000000)
 
