@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  7 JUL 2020 16:40
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  7 JUL 2020 16:48
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.242 seconds (./header.tex
+luaotfload | main : initialization completed in 0.270 seconds (./header.tex
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -2451,28 +2451,27 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman8-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
 he/generic/fonts/otl/lmroman5-regular.luc)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 11.
-<../Bilder/kombi.jpg, id=30, 446.41782pt x 459.21562pt>
+(babel)             in language  on input line 9.
+<../Bilder/kombi.jpg, id=31, 446.41782pt x 457.71pt>
 File: ../Bilder/kombi.jpg Graphic file (type jpg)
 <use ../Bilder/kombi.jpg>
-Package luatex.def Info: ../Bilder/kombi.jpg  used on input line 18.
-(luatex.def)             Requested size: 292.7776pt x 301.17732pt.
+Package luatex.def Info: ../Bilder/kombi.jpg  used on input line 15.
+(luatex.def)             Requested size: 292.7776pt x 300.18987pt.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 19.
+(Font)              scaled to size 5.00008pt on input line 16.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 19.
-)
+(Font)              scaled to size 4.99992pt on input line 16.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2491,6 +2490,35 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 21.
  [4<../Bilder/kombi.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 21.
+<../Bilder/EllenbogenX.png, id=45, 1213.53375pt x 623.32875pt>
+File: ../Bilder/EllenbogenX.png Graphic file (type png)
+<use ../Bilder/EllenbogenX.png>
+Package luatex.def Info: ../Bilder/EllenbogenX.png  used on input line 26.
+(luatex.def)             Requested size: 292.7776pt x 150.38187pt.
+<../Bilder/EllenbogenY.png, id=46, 1213.53375pt x 623.32875pt>
+File: ../Bilder/EllenbogenY.png Graphic file (type png)
+<use ../Bilder/EllenbogenY.png>
+Package luatex.def Info: ../Bilder/EllenbogenY.png  used on input line 33.
+(luatex.def)             Requested size: 292.7776pt x 150.38187pt.
+<../Bilder/EllenbogenZ.png, id=47, 1213.53375pt x 623.32875pt>
+File: ../Bilder/EllenbogenZ.png Graphic file (type png)
+<use ../Bilder/EllenbogenZ.png>
+Package luatex.def Info: ../Bilder/EllenbogenZ.png  used on input line 40.
+(luatex.def)             Requested size: 292.7776pt x 150.38187pt.
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 21.
+ [5<../Bilder/EllenbogenX.png><../Bilder/EllenbogenY.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2514,30 +2542,30 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 26.
-[5]
+[6<../Bilder/EllenbogenZ.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 32C4CA3ADF848B8D85DC3D2E0FB05B85;3790.
+(rerunfilecheck)             Checksum: 537EB772A37FE6C3F2531B8BE41A67DB;4876.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 07F54890AEF052E20561EDA136EDD528;405.
+(rerunfilecheck)             Checksum: A0947C48D1F4F3AC048202C6ECE3BF56;485.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42347 strings out of 494412
+ 42378 strings out of 494412
  100000,1648299 words of node,token memory allocated
  633 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 10 attribute, 75 glue_spec, 10 attr
 ibute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:3,2:377,3:83,4:20,5:196,6:12,7:2914,8:47,9:116,10:5,11:302,12:
-1
- 45286 multiletter control sequences out of 65536+600000
- 156 fonts using 40433431 bytes
+   avail lists: 1:2,2:375,3:97,4:45,5:224,6:13,7:3098,8:54,9:120,10:21,11:340,12
+:1
+ 45303 multiletter control sequences out of 65536+600000
+ 156 fonts using 40433199 bytes
  57i,7n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/tex
@@ -2549,10 +2577,10 @@ dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/texmf-dist/
 fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-dist/fonts
 /opentype/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/opentype
 /public/lm/lmroman12-bold.otf>
-Output written on main.pdf (5 pages, 209234 bytes).
+Output written on main.pdf (6 pages, 796109 bytes).
 
-PDF statistics: 142 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 158 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 131072)
+ 41 words of extra memory for PDF output out of 10000 (max. 100000000)
 
