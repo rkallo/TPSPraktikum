@@ -1,0 +1,4 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Theorie Aufgaben}{3}{section.1}
+\contentsline {section}{\nonumberline Literatur}{5}{section*.2}
