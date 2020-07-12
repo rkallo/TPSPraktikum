@@ -30,7 +30,7 @@
 \recalctypearea{}
 
 % deutsche Spracheinstellungen
-\usepackage[main=ngerman]{babel}
+\usepackage[main=german]{babel}
 
 
 \usepackage[
@@ -59,6 +59,9 @@
   separate-uncertainty=true,   % immer Fehler mit \pm
   per-mode=symbol-or-fraction, % / in inline math, fraction in display math
 ]{siunitx}
+
+\DeclareSIUnit\R{R}
+\DeclareSIUnit\MU{MU}
 
 % chemische Formeln
 \usepackage[
@@ -113,7 +116,7 @@
 ]{biblatex}
 % Quellendatenbank
 \addbibresource{lit.bib}
-\addbibresource{programme.bib}
+%\addbibresource{programme.bib}
 
 % Hyperlinks im Dokument
 \usepackage[
