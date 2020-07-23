@@ -1,0 +1,40 @@
+\section{Bestrahlungsplanung}
+\label{sec:Bestrahlungsplanung}
+
+Da bei dieser Strahlentherapie die Shrinking-Field-Technik angewendet wird, werden zwei
+Bestrahlungspläne benötigt.
+Bevor die Bestrahlungspläne erstellt werden, muss die Kontur des gesamten Kopfes und von
+Risikoorganen in die vorliegenden CT-Bilder eingezeichnet werden. Risikoorgane bei dieser
+Therapie sind zum einen die Augenlinsen und zum anderen das Chiasma Optikum. Bei diesen
+Organen muss drauf geachtet werden, dass der Organdosisgrenzwert nicht überschritten wird.
+Die Zielvolumina der beiden Bestrahlungen sind bereits als PTV1 und PTV2 eingezeichnet. Dabei
+ist PTV1 das größere Zielvolumen und PTV2 das kleinere.
+In dem ersten Bestrahlungsplan wird nur das PTV1 betrachtet. Für die Bestrahlung dieses Zielvolumens werden
+fünf Felder verwendet. Die Gantry-Rotationen und die Gewichtungen sind in der Tabelle \ref{tab:Felder1} dargestellt.
+
+\begin{table}
+  \centering
+  \caption{Die Gantry-Rotation, Gewichtung und Feldgröße der bei beiden Bestrahlungsplänen verwendeten Feldern.}
+  \label{tab:Felder1}
+  \begin{tabular}{c c c c}
+    \toprule
+    Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
+    \midrule
+    $1$ & $0°$ & $0,25$ & $10$x$10 \si{\centi\meter\squared}$ \\
+    $2$ & $90°$ & $0,30$ & $15$x$15 \si{\centi\meter\squared}$ \\
+    $3$ & $90°$ & $0,05$ & $15$x$15 \si{\centi\meter\squared}$ \\
+    $4$ & $230°$ & $0,35$ & $15$x$15 \si{\centi\meter\squared}$ \\
+    $5$ & $230°$ & $0,05$ & $15$x$15 \si{\centi\meter\squared}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Bei allen Feldern werden MLCs verwendet, die jeweils an das PTV1 angepasst worden sind.
+Bei den Einstellungen der Lamellen ist auch darauf geachtet worden, dass die Augenlinsen
+so gut wie möglich geschont werden. Bei diesem Zielvolumen ist es nicht möglich das Chiasma
+zu schützen, da es innerhalb des Zielvolumens liegt. \\
+Für den Bestrahlungsplan für das PTV2 werden die gleichen Felder mit den gleichen
+Gewichtungen wie bei dem ersten Plan verwendet. Diese Felder sind in Tabelle \ref{tab:Felder1} beschrieben.
+Bei diesem Plan werden allerdings die MLCs an das neue Zielvolumen angepasst. Außerdem
+wird bei den Einstellungen der MLCs darauf geachtet, dass zum einen die Augenlinsen ausreichend geschützt
+werden und zum anderen das Chiasma. Beide Pläne werden auf \enquote{$100\%$ target mean} normiert.
