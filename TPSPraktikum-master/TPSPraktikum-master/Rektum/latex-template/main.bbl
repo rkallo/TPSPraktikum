@@ -1,0 +1,58 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Rektum}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=4cd92ce8851bbc09110090b8b2f6913f}{%
+           family={Jentschura},
+           familyi={J\bibinitperiod},
+           given={PD\bibnamedelima Dr.\bibnamedelimi Dirk},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oncology Guide}%
+      }
+      \strng{namehash}{4cd92ce8851bbc09110090b8b2f6913f}
+      \strng{fullhash}{4cd92ce8851bbc09110090b8b2f6913f}
+      \strng{bibnamehash}{4cd92ce8851bbc09110090b8b2f6913f}
+      \strng{authorbibnamehash}{4cd92ce8851bbc09110090b8b2f6913f}
+      \strng{authornamehash}{4cd92ce8851bbc09110090b8b2f6913f}
+      \strng{authorfullhash}{4cd92ce8851bbc09110090b8b2f6913f}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rektumkarzinom}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oncology-guide.com/erkrankung/rektumkarzinom/
+      \endverb
+      \verb{url}
+      \verb https://www.oncology-guide.com/erkrankung/rektumkarzinom/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
