@@ -1,0 +1,107 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{ICRU}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=7395fbf004612f5aa1e9689e9c3e8045}{%
+           family={Kretschmar},
+           familyi={K\bibinitperiod},
+           given={Usha\bibnamedelima Kiran},
+           giveni={U\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Heinrich-Heine-Universität Düsseldorf}%
+      }
+      \strng{namehash}{7395fbf004612f5aa1e9689e9c3e8045}
+      \strng{fullhash}{7395fbf004612f5aa1e9689e9c3e8045}
+      \strng{bibnamehash}{7395fbf004612f5aa1e9689e9c3e8045}
+      \strng{authorbibnamehash}{7395fbf004612f5aa1e9689e9c3e8045}
+      \strng{authornamehash}{7395fbf004612f5aa1e9689e9c3e8045}
+      \strng{authorfullhash}{7395fbf004612f5aa1e9689e9c3e8045}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{3D-konformale Bestrahlung der Brust - Evaluation der Dosis- und Volumenverteilung}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://d-nb.info/989651673/34
+      \endverb
+      \verb{url}
+      \verb https://d-nb.info/989651673/34
+      \endverb
+    \endentry
+    \entry{Glioblastom}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=54ad44a1ce4b20dfa5b2c6e4a12e477b}{%
+           family={NetDoktor},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Dr. med. Ricarda Schwarz}%
+      }
+      \strng{namehash}{54ad44a1ce4b20dfa5b2c6e4a12e477b}
+      \strng{fullhash}{54ad44a1ce4b20dfa5b2c6e4a12e477b}
+      \strng{bibnamehash}{54ad44a1ce4b20dfa5b2c6e4a12e477b}
+      \strng{authorbibnamehash}{54ad44a1ce4b20dfa5b2c6e4a12e477b}
+      \strng{authornamehash}{54ad44a1ce4b20dfa5b2c6e4a12e477b}
+      \strng{authorfullhash}{54ad44a1ce4b20dfa5b2c6e4a12e477b}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Glioblastom}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2020}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.netdoktor.de/krankheiten/hirntumor/glioblastom/
+      \endverb
+      \verb{url}
+      \verb https://www.netdoktor.de/krankheiten/hirntumor/glioblastom/
+      \endverb
+    \endentry
+    \entry{grenz}{manual}{}
+      \list{publisher}{1}{%
+        {TU Dortmund}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labeltitlesource}{title}
+      \field{title}{Risikoorganbewertung im DVH}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://moodle.tu-dortmund.de/pluginfile.php/1279289/mod_resource/content/1/Bewertung-DVH.pdf
+      \endverb
+      \verb{url}
+      \verb https://moodle.tu-dortmund.de/pluginfile.php/1279289/mod_resource/content/1/Bewertung-DVH.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

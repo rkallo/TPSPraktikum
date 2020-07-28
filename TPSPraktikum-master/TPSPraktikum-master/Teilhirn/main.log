@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  28 JUL 2020 11:15
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  28 JUL 2020 10:38
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.390 seconds (./header.tex
+luaotfload | main : initialization completed in 1.035 seconds (./header.tex
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -962,13 +962,13 @@ Package babel Info: Non-standard hyphenation setup on input line 114.
 \l@uppersorbian=\language84
 \l@welsh=\language85
 )
-(c:/texlive/2018/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2018/03/29 v2.10 German support for babel (post-1996 orthograp
-hy)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2018/03/29 v2.10 German support for babel (pre-1996 orthography
+)
 
-(c:/texlive/2018/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2018/03/29 v2.10 German support for babel (post-1996 orthogra
-phy)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2018/03/29 v2.10 German support for babel (pre-1996 orthograph
+y)
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/09/02 3.23 Babel common definitions
@@ -976,14 +976,14 @@ File: babel.def 2018/09/02 3.23 Babel common definitions
 \U@D=\dimen156
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/luababel.def))
-Package babel Info: Making " an active character on input line 121.
+Package babel Info: Making " an active character on input line 135.
 
-(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.tex
-UTF-8 German hyphenation patterns (reformed orthography)
-(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.tex
+(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1901.tex
+UTF-8 German hyphenation patterns (traditional orthography)
+(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1901.tex
 
-German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2018-03-31
- (WL)))))) (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+German Hyphenation Patterns (Traditional Orthography) `dehypht-x' 2018-03-31 (W
+L)))))) (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2018/07/29 vv0.8m Unicode maths in XeLaTeX and LuaLaTeX
 
 (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
@@ -2221,23 +2221,12 @@ Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
-
-(c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-)) (./main.aux)
+) (./main.aux)
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -2410,21 +2399,29 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmsans12-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
 he/generic/fonts/otl/lmmono12-regular.luc)
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 14.
  [1
 
@@ -2435,87 +2432,259 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \tf@toc=\write5
 
 \openout5 = main.toc
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 16.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 16.
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 16.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 16.
  [2
 
-] (./content/theorie.tex
-Package babel Info: Redefining ngerman shorthand "|
+] (./content/einleitung.tex
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 1.
-) (./content/durchfuehrung.tex
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
+) (./content/patient.tex
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 1.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman8-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
-he/generic/fonts/otl/lmroman5-regular.luc)) (./content/auswertung.tex
-Package babel Info: Redefining ngerman shorthand "|
+he/generic/fonts/otl/lmroman5-regular.luc)) (./content/bestrahlungsplanung.tex
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 14.
  [3])
-(./content/diskussion.tex
-Package babel Info: Redefining ngerman shorthand "|
+(./content/auswertung.tex
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 1.
-)
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 1.
+<Bilder/Teilhirn1_Z.png, id=46, 1218.5525pt x 623.32875pt>
+File: Bilder/Teilhirn1_Z.png Graphic file (type png)
+<use Bilder/Teilhirn1_Z.png>
+Package luatex.def Info: Bilder/Teilhirn1_Z.png  used on input line 20.
+(luatex.def)             Requested size: 418.25555pt x 213.94534pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 24.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 24.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 24.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 24.
+ [4]
+<Bilder/Teilhirn1_Y.png, id=60, 1218.5525pt x 623.32875pt>
+File: Bilder/Teilhirn1_Y.png Graphic file (type png)
+<use Bilder/Teilhirn1_Y.png>
+Package luatex.def Info: Bilder/Teilhirn1_Y.png  used on input line 27.
+(luatex.def)             Requested size: 418.25555pt x 213.94534pt.
+<Bilder/Teilhirn1_X.png, id=61, 1218.5525pt x 623.32875pt>
+File: Bilder/Teilhirn1_X.png Graphic file (type png)
+<use Bilder/Teilhirn1_X.png>
+Package luatex.def Info: Bilder/Teilhirn1_X.png  used on input line 34.
+(luatex.def)             Requested size: 418.25555pt x 213.94534pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 38.
+ [5<./Bilder/Teilhirn1_Z.png><./Bilder/Teilhirn1_Y.png>]
+<Bilder/Teilhirn1_DVH.png, id=69, 1216.545pt x 624.3325pt>
+File: Bilder/Teilhirn1_DVH.png Graphic file (type png)
+<use Bilder/Teilhirn1_DVH.png>
+Package luatex.def Info: Bilder/Teilhirn1_DVH.png  used on input line 49.
+(luatex.def)             Requested size: 418.25555pt x 214.64235pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 53.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 53.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 53.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 53.
+ [6<./Bilder/Teilhirn1_X.png>]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 79.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 79.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 79.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 79.
+ [7<./Bilder/Teilhirn1_DVH.png>]
+<Bilder/Teilhirn2_Z.png, id=92, 1215.54124pt x 624.3325pt>
+File: Bilder/Teilhirn2_Z.png Graphic file (type png)
+<use Bilder/Teilhirn2_Z.png>
+Package luatex.def Info: Bilder/Teilhirn2_Z.png  used on input line 83.
+(luatex.def)             Requested size: 418.25555pt x 214.82335pt.
+<Bilder/Teilhirn2_Y.png, id=93, 1215.54124pt x 624.3325pt>
+File: Bilder/Teilhirn2_Y.png Graphic file (type png)
+<use Bilder/Teilhirn2_Y.png>
+Package luatex.def Info: Bilder/Teilhirn2_Y.png  used on input line 90.
+(luatex.def)             Requested size: 418.25555pt x 214.82335pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 94.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 94.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 94.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 94.
+ [8<./Bilder/Teilhirn2_Z.png>]
+<Bilder/Teilhirn2_X.png, id=99, 1215.54124pt x 624.3325pt>
+File: Bilder/Teilhirn2_X.png Graphic file (type png)
+<use Bilder/Teilhirn2_X.png>
+Package luatex.def Info: Bilder/Teilhirn2_X.png  used on input line 97.
+(luatex.def)             Requested size: 418.25555pt x 214.82335pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 110.
+ [9<./Bilder/Teilhirn2_Y.png><./Bilder/Teilhirn2_X.png>]
+<Bilder/Teilhirn2_DVH.png, id=109, 1155.31625pt x 593.21625pt>
+File: Bilder/Teilhirn2_DVH.png Graphic file (type png)
+<use Bilder/Teilhirn2_DVH.png>
+Package luatex.def Info: Bilder/Teilhirn2_DVH.png  used on input line 113.
+(luatex.def)             Requested size: 418.25555pt x 214.75252pt.
+<Bilder/Teilhirn_vergleich2.png, id=113, 1216.545pt x 624.3325pt>
+File: Bilder/Teilhirn_vergleich2.png Graphic file (type png)
+<use Bilder/Teilhirn_vergleich2.png>
+Package luatex.def Info: Bilder/Teilhirn_vergleich2.png  used on input line 131.
+
+(luatex.def)             Requested size: 418.25555pt x 214.64235pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 135.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 135.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 135.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 135.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 135.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 135.
+
+[10<./Bilder/Teilhirn2_DVH.png>])
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 23.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 23.
+ [11<./Bilder/Teilhirn_vergleich2.png>]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 25.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 25.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmromancaps10-regular.luc)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 25.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 25.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 28.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 28.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 28.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 28.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: F8A97E3E2DB713CDF320E62DFAB42A06;4378.
+(rerunfilecheck)             Checksum: 53430C9B52EB472E816FC60304C4860C;7837.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 6D1B922B4EFF25D780C7E0816BE16E31;485.
+(rerunfilecheck)             Checksum: F9650F6D1B2DC6DA89B68717CB6B3901;486.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42522 strings out of 494412
+ 42612 strings out of 494412
  100000,1648299 words of node,token memory allocated
- 619 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 8 attribute, 75 glue_spec, 8 attrib
-ute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:4,2:731,3:117,4:36,5:276,6:12,7:4882,8:93,9:202,10:18,11:498,1
-2:1
- 45386 multiletter control sequences out of 65536+600000
- 210 fonts using 55475495 bytes
+ 639 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 9 attribute, 77 glue_spec, 9 attrib
+ute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:2,2:427,3:127,4:56,5:238,6:14,7:3815,8:101,9:121,10:30,11:450,
+12:1
+ 45441 multiletter control sequences out of 65536+600000
+ 211 fonts using 55568683 bytes
  57i,20n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/tex
@@ -2527,10 +2696,10 @@ fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/texmf-dist/fonts
 /opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-dist/fonts/open
 type/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/opentype/publ
 ic/lm/lmroman12-bold.otf>
-Output written on main.pdf (4 pages, 44664 bytes).
+Output written on main.pdf (12 pages, 1298595 bytes).
 
-PDF statistics: 136 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 131072)
+PDF statistics: 226 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 100000000)
 
