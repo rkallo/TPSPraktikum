@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.3)  28 JUN 2020 16:57
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.3)  30 JUL 2020 17:55
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.192 seconds
+luaotfload | main : initialization completed in 0.197 seconds
 (./header.tex (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -1712,53 +1712,53 @@ Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe233.png  used on inpu
 <../../Wasserphantom Bilder/Aufgabe244.png, id=211, 1215.54124pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe244.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe244.png>
-Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe244.png  used on input line 308.
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe244.png  used on input line 315.
 (luatex.def)             Requested size: 292.7776pt x 149.8928pt.
-<../../Wasserphantom Bilder/Aufgabe2441.png, id=212, 1215.54124pt x 622.325pt>
+ [15]
+<../../Wasserphantom Bilder/Aufgabe2441.png, id=220, 1215.54124pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe2441.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe2441.png>
-Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe2441.png  used on input line 315.
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe2441.png  used on input line 322.
 (luatex.def)             Requested size: 292.7776pt x 149.8928pt.
- [15<../../Wasserphantom Bilder/Aufgabe244.png>]
-<../../Wasserphantom Bilder/Aufgabe234.png, id=222, 1445.4pt x 776.9025pt>
+<../../Wasserphantom Bilder/Aufgabe234.png, id=221, 1445.4pt x 776.9025pt>
 File: ../../Wasserphantom Bilder/Aufgabe234.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe234.png>
-Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe234.png  used on input line 323.
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe234.png  used on input line 330.
 (luatex.def)             Requested size: 292.7776pt x 157.36931pt.
-) (./content/Teil3.tex
-<../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png, id=224, 1215.54124pt x 622.325pt>
+) (./content/Teil3.tex [16<../../Wasserphantom Bilder/Aufgabe244.png><../../Wasserphantom Bilder/Aufgabe2441.png><../../Wasserphantom Bilder/Aufgabe234.png>]
+<../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png, id=230, 1215.54124pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png>
 Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png  used on input line 20.
 (luatex.def)             Requested size: 418.25555pt x 214.1326pt.
- [16<../../Wasserphantom Bilder/Aufgabe2441.png><../../Wasserphantom Bilder/Aufgabe234.png>]
-<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png, id=237, 1215.54124pt x 622.325pt>
+<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png, id=235, 1215.54124pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png>
 Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png  used on input line 32.
 (luatex.def)             Requested size: 418.25555pt x 214.1326pt.
-<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png, id=238, 1215.54124pt x 622.325pt>
+ [17<../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png>]
+<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png, id=247, 1215.54124pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png>
 Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png  used on input line 39.
 (luatex.def)             Requested size: 418.25555pt x 214.1326pt.
- [17<../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png><../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png>]
-<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png, id=250, 1215.54124pt x 622.325pt>
+<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png, id=248, 1215.54124pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png>
 Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png  used on input line 46.
 (luatex.def)             Requested size: 418.25555pt x 214.1326pt.
-<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png, id=251, 1215.54124pt x 622.325pt>
+ [18<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png><../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png>]
+<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png, id=255, 1215.54124pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png>
 Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png  used on input line 53.
 (luatex.def)             Requested size: 418.25555pt x 214.1326pt.
- [18<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png><../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 58--68
 
  []
 
-
+[19<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png><../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 69--77
 
  []
@@ -1768,22 +1768,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--89
 
  []
 
-[19<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 99--110
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 99--110
 
  []
 
-<../../Wasserphantom Bilder/Aufgabe3.1_8.png, id=265, 1445.4pt x 622.325pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--110
+
+ []
+
+<../../Wasserphantom Bilder/Aufgabe3.1_8.png, id=264, 1445.4pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe3.1_8.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe3.1_8.png>
 Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_8.png  used on input line 124.
 (luatex.def)             Requested size: 418.25555pt x 180.08029pt.
-
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 129--146
 
  []
@@ -1793,57 +1793,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--146
 
  []
 
-[20<../../Wasserphantom Bilder/Aufgabe3.1_8.png>]
-<../../Wasserphantom Bilder/Aufgabe3.1_9.png, id=274, 1216.545pt x 622.325pt>
+<../../Wasserphantom Bilder/Aufgabe3.1_9.png, id=271, 1216.545pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe3.1_9.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe3.1_9.png>
 Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_9.png  used on input line 152.
 (luatex.def)             Requested size: 418.25555pt x 213.95218pt.
-<../../Wasserphantom Bilder/Aufgabe3.1_10.png, id=276, 1216.545pt x 622.325pt>
+[21<../../Wasserphantom Bilder/Aufgabe3.1_8.png>]
+<../../Wasserphantom Bilder/Aufgabe3.1_10.png, id=282, 1216.545pt x 622.325pt>
 File: ../../Wasserphantom Bilder/Aufgabe3.1_10.png Graphic file (type png)
 <use ../../Wasserphantom Bilder/Aufgabe3.1_10.png>
 Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_10.png  used on input line 166.
 (luatex.def)             Requested size: 418.25555pt x 213.95218pt.
- [21<../../Wasserphantom Bilder/Aufgabe3.1_9.png>]
-<build/Aufgabe3.2.pdf, id=286, 417.7206pt x 258.00488pt>
+ [22<../../Wasserphantom Bilder/Aufgabe3.1_9.png>]
+<build/Aufgabe3.2.pdf, id=290, 417.7206pt x 258.00488pt>
 File: build/Aufgabe3.2.pdf Graphic file (type pdf)
 <use build/Aufgabe3.2.pdf>
 Package luatex.def Info: build/Aufgabe3.2.pdf  used on input line 195.
 (luatex.def)             Requested size: 418.25555pt x 258.33493pt.
- [22<../../Wasserphantom Bilder/Aufgabe3.1_10.png>]) [23<./build/Aufgabe3.2.pdf>]
+ [23<../../Wasserphantom Bilder/Aufgabe3.1_10.png>]
+<../../Wasserphantom Bilder/TDK_Luft.png, id=301, 971.63pt x 559.08875pt>
+File: ../../Wasserphantom Bilder/TDK_Luft.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/TDK_Luft.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/TDK_Luft.png  used on input line 221.
+(luatex.def)             Requested size: 418.25555pt x 240.66792pt.
+ [24<./build/Aufgabe3.2.pdf>]
+<../../Wasserphantom Bilder/TDK_Wasser.png, id=331, 1111.15125pt x 572.1375pt>
+File: ../../Wasserphantom Bilder/TDK_Wasser.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/TDK_Wasser.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/TDK_Wasser.png  used on input line 228.
+(luatex.def)             Requested size: 418.25555pt x 215.36293pt.
+<../../Wasserphantom Bilder/TDK_Fett.png, id=332, 1062.97125pt x 594.22pt>
+File: ../../Wasserphantom Bilder/TDK_Fett.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/TDK_Fett.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/TDK_Fett.png  used on input line 235.
+(luatex.def)             Requested size: 418.25555pt x 233.81215pt.
+ [25<../../Wasserphantom Bilder/TDK_Luft.png><../../Wasserphantom Bilder/TDK_Wasser.png>]
+<../../Wasserphantom Bilder/TDK_Knochen.png, id=339, 1024.82875pt x 514.92375pt>
+File: ../../Wasserphantom Bilder/TDK_Knochen.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/TDK_Knochen.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/TDK_Knochen.png  used on input line 242.
+(luatex.def)             Requested size: 418.25555pt x 210.15367pt.
+) [26<../../Wasserphantom Bilder/TDK_Fett.png><../../Wasserphantom Bilder/TDK_Knochen.png>]
 Overfull \hbox (14.13794pt too wide) in paragraph at lines 24--24
 \TU/lmtt/m/n/10.95 dortmund . de / pluginfile . php / 1245681 / mod _ resource / content / 0 / Wasserphantom .
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
-[24]
+[27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (./build/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 7EA3F3800171093565157A3BBF2FF394;21166.
+(rerunfilecheck)             Checksum: B132E2DC978C0C8EF2D5CC02365B29BF;22636.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 358355269275ED59D64C9BBBD43BE5B7;1785.
+(rerunfilecheck)             Checksum: 8B09E749DD3EC77DB8FA4374E99FECDD;1785.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42906 strings out of 494407
+ 42945 strings out of 494407
  100000,1648299 words of node,token memory allocated
  674 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 11 attribute, 78 glue_spec, 11 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:3,2:635,3:143,4:64,5:241,6:37,7:3873,8:100,9:137,10:28,11:416,12:1
- 45633 multiletter control sequences out of 65536+600000
- 223 fonts using 82356039 bytes
+   avail lists: 1:3,2:635,3:143,4:57,5:254,6:37,7:3947,8:100,9:137,10:28,11:416,12:1
+ 45653 multiletter control sequences out of 65536+600000
+ 223 fonts using 82355687 bytes
  57i,13n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (24 pages, 2796926 bytes).
+Output written on main.pdf (27 pages, 3241619 bytes).
 
-PDF statistics: 463 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 131072)
+PDF statistics: 492 PDF objects out of 1000 (max. 8388607)
+ 358 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 131072)
  153 words of extra memory for PDF output out of 10000 (max. 100000000)
 

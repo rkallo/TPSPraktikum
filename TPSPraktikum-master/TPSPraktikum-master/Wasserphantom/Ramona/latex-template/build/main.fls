@@ -1,4 +1,4 @@
-PWD /Users/lauritz/UNI/8. Semester/TPS Praktikum/TPSPraktikum/Wasserphantom/Ramona/latex-template
+PWD /Users/lauritz/UNI/8. Semester/TPS Praktikum/TPSPraktikum/TPSPraktikum-master/TPSPraktikum-master/Wasserphantom/Ramona/latex-template
 INPUT /usr/local/texlive/2018/texmf-var/web2c/luatex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT build/main.log
@@ -431,6 +431,14 @@ INPUT ../../Wasserphantom Bilder/Aufgabe3.1_10.png
 INPUT ../../Wasserphantom Bilder/Aufgabe3.1_10.png
 INPUT ./build/Aufgabe3.2.pdf
 INPUT ./build/Aufgabe3.2.pdf
+INPUT ../../Wasserphantom Bilder/TDK_Luft.png
+INPUT ../../Wasserphantom Bilder/TDK_Luft.png
+INPUT ../../Wasserphantom Bilder/TDK_Wasser.png
+INPUT ../../Wasserphantom Bilder/TDK_Wasser.png
+INPUT ../../Wasserphantom Bilder/TDK_Fett.png
+INPUT ../../Wasserphantom Bilder/TDK_Fett.png
+INPUT ../../Wasserphantom Bilder/TDK_Knochen.png
+INPUT ../../Wasserphantom Bilder/TDK_Knochen.png
 INPUT /Users/lauritz/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
 INPUT build/main.aux
 INPUT build/main.run.xml
