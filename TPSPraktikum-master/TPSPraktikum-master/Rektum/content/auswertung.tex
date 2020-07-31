@@ -1,6 +1,14 @@
 \section{Bestrahlungsplanung}
 \label{sec:Bestrahlungsplanung}
-Bei dieser Strahlentherapie wird die Shrinking-Field-Technik angewendet und aus diesem Grund werden zwei Bestrahlungspläne benötigt. Das PTV ist in den CT-Daten bereits eingezeichnet und als nächstes wird die Kontur des Körpers und von den Risikoorganen in die vorliegenden CT-Bilder eingezeichnet. Risikoorgane in diesem Fall sind die Blase und die Hüftkörper. Hierbei muss bei dieser Planung die applizierte Dosis im Gewebe beobachtet werden und dass der Organdosisgrenzwert nicht überschritten wird. Die Zielvolumina der beiden Bestrahlungen sind bereits als PTV1 und als PTV2 eingezeichnet. Dabei ist PTV1 das größere Zielvolumen und PTV2 das kleinere. Im ersten Bestrahlungsplan wird nur das PTV1 betrachtet. Für die Bestrahlung dieses Zielvolumens (PTV1) werden fünf Felder verwendet. Die Gantry-Rotationen und die Gewichtungen für das erste PTV sind in der Tabelle \ref{tab:Felder1} dargestellt.
+Bei dieser Strahlentherapie wird die Shrinking-Field-Technik angewendet und aus diesem Grund werden zwei Bestrahlungspläne benötigt.
+Bei diesen CT-Bildern ist darauf zu achten, dass der Patient auf dem Bauch liegt. Das bedeutet, dass in diesem
+Fall die anterior Richtung und die posterior Richtung vertauscht ist.
+Die beiden PTVs sind in den CT-Daten bereits eingezeichnet, als PTV1 und PTV2. Dabei ist PTV1 das größere Zielvolumen und PTV2 das kleinere.
+Die Kontur des Körpers und die Kontur von Risikoorganen werden in den
+vorliegenden CT-Bilder noch eingezeichnet. Risikoorgane bei dieser Bestrahlung sind die Blase und die Hüftköpfe. Bei dieser Planung muss darauf geachtet
+werden, dass der Organdosisgrenzwert nicht überschritten wird. Im ersten Bestrahlungsplan wird nur das PTV1 betrachtet.
+Für die Bestrahlung dieses Zielvolumens (PTV1) werden fünf Felder verwendet.
+Die Gantry-Rotationen und die Gewichtungen für das erste PTV sind in der Tabelle \ref{tab:Felder1} dargestellt.
 
 \begin{table}
 	\centering
@@ -10,17 +18,23 @@ Bei dieser Strahlentherapie wird die Shrinking-Field-Technik angewendet und aus 
 		\toprule
 		Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
 		\midrule
-		$1$ & $0°$ & $0,300$ & $14,7$x$24,4 \si{\centi\meter\squared}$ \\
-		$2$ & $90°$ & $0,100$ & $15,7$x$25,2 \si{\centi\meter\squared}$ \\
-		$3$ & $270°$ & $0,100$ & $16,5$x$25,2 \si{\centi\meter\squared}$ \\
-		$4$ & $130°$ & $0,250$ & $16,5$x$26,9 \si{\centi\meter\squared}$ \\
-		$5$ & $230°$ & $0,250$ & $17,6$x$26,9 \si{\centi\meter\squared}$ \\
+		$1$ & $0°$   & $0,30$ & $\num{14.7}$x$\num{24.4} \si{\centi\meter\squared}$ \\
+		$2$ & $90°$  & $0,10$ & $\num{15.7}$x$\num{25.2} \si{\centi\meter\squared}$ \\
+		$3$ & $270°$ & $0,10$ & $\num{16.5}$x$\num{25.2} \si{\centi\meter\squared}$ \\
+		$4$ & $130°$ & $0,25$ & $\num{16.5}$x$\num{26.9} \si{\centi\meter\squared}$ \\
+		$5$ & $230°$ & $0,25$ & $\num{17.6}$x$\num{26.9} \si{\centi\meter\squared}$ \\
 		\bottomrule
 	\end{tabular}
 \end{table}
 
-Für alle Felder werden MLCs verwendet, die jeweils manuell an das PTV1 angepasst worden sind. Bei den Einstellungen der Lamellen ist darauf geachtet worden, dass die Blase so gut wie möglich geschont wird. Der Abstand zum PTV wird auf $\SI{1}{\centi\meter}$ eingestellt. Der Bestrahlungsplan wird auf "$\SI{100}{\percent}$ target mean"  normiert.
-Für den Bestrahlungsplan für das PTV2 werden die gleichen Gantry-Rotationen und Gewichtungen verwendet, aber in diesem Fall andere Felder. Diese Felder befinden sich in der Tabelle \ref{tab:Felder2}. Hierbei werden auch MLCs wieder verwendet, die jeweils manuell an das PTV2 angepasst werden. Der Abstand zum PTV wird auf $\SI{1}{\centi\meter}$ eingestellt. Es wird hier auch darauf geachtet, dass die Blase und die Hüftkörper geschützt werden. Der Bestrahlungsplan wird hier auch auf "$\SI{100}{\percent}$ target mean" normiert.
+Bei allen Feldern werden MLCs verwendet, die jeweils manuell an das PTV1 angepasst worden sind.
+Bei den Einstellungen der Lamellen ist darauf geachtet worden, dass die Blase so gut wie möglich geschont wird.
+Der Bestrahlungsplan wird auf "$\SI{100}{\percent}$ target mean"  normiert.
+Für den Bestrahlungsplan für das PTV2 werden die gleichen Gantry-Rotationen und Gewichtungen verwendet, aber in diesem Fall werden die Feldgrößen angepasst.
+Die Daten zu diesen Feldern sind in der Tabelle \ref{tab:Felder2} dargestellt.
+Hierbei werden auch MLCs wieder verwendet, die jeweils manuell an das PTV2 angepasst werden.
+Es wird hier auch darauf geachtet, dass die Blase und die Hüftkörper geschützt werden.
+Dieser Bestrahlungsplan wird auch auf "$\SI{100}{\percent}$ target mean" normiert.
 
 \begin{table}
 	\centering
@@ -30,13 +44,11 @@ Für den Bestrahlungsplan für das PTV2 werden die gleichen Gantry-Rotationen un
 		\toprule
 		Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
 		\midrule
-		$1$ & $0°$ & $0,300$ & $10,4$x$10 \si{\centi\meter\squared}$ \\
-		$2$ & $90°$ & $0,100$ & $8,6$x$10 \si{\centi\meter\squared}$ \\
-		$3$ & $270°$ & $0,100$ & $8,6$x$10 \si{\centi\meter\squared}$ \\
-		$4$ & $130°$ & $0,250$ & $8,6$x$10 \si{\centi\meter\squared}$ \\
-		$5$ & $230°$ & $0,250$ & $9,8$x$9,7 \si{\centi\meter\squared}$ \\
+		$1$ & $0°$ & $0,30$   & $\num{10.4}$x$\num{10} \si{\centi\meter\squared}$ \\
+		$2$ & $90°$ & $0,10$  & $\num{8.6}$x$\num{10}\si{\centi\meter\squared}$ \\
+		$3$ & $270°$ & $0,10$ & $\num{8.6}$x$\num{10}\si{\centi\meter\squared}$ \\
+		$4$ & $130°$ & $0,25$ & $\num{8.6}$x$\num{10}\si{\centi\meter\squared}$ \\
+		$5$ & $230°$ & $0,25$ & $\num{9.8}$x$\num{9.7} \si{\centi\meter\squared}$ \\
 		\bottomrule
 	\end{tabular}
 \end{table}
-
-Das Ziel ist es, die umliegenden Organe bzw. Gewebe, vor allem die Blase und die Hüftköpfe möglichst gut zu schonen und dass das PTV von der $\SI{95}{\percent}$ Isodosenlinie umschlossen wird.
