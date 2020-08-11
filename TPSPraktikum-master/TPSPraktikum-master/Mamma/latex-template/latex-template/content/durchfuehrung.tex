@@ -1,0 +1,39 @@
+\section{Bestrahlungsplanung}
+\label{sec:Bestrahlungsplanung}
+Hierbei werden zwei Bestrahlungsserien stattfinden. Die beiden PTVs sind in den CT-Daten bereits eingezeichnet, als PTV1 und PTV2. Dabei ist PTV1 das größere Zielvolumen und PTV2 das kleinere. Das PTV2 wird als PTV-High bezeichnet und hier wird das Tumorbett bestrahlt. Das PTV1 wird als PTV-Intermediate bezeichnet und das ist das größere Volumen, also hier wird die gesamte linke Mamma bestrahlt. Hierbei werden die Tumorzellen getötet. Die Kontur des Körpers und die Kontur der Risikoorganen werden in den vorliegenden CT-Bilder noch eingezeichnet. Risikoorgane bei dieser Bestrahlung sind die Lunge, das Herz und das Rückenmark. Diese werden einer bestimmten Dosis ausgesetzt und befinden sich in der Nähe des bestrahlenden Gebiets. Hierbei muss darauf geachtet werden, dass die Organdosisgrenzwerte nicht überschritten werden.
+Im ersten Bestrahlungsplan wird nur das PTV1 betrachtet. Für die Bestrahlung dieses Zielvolumens werden 4 Felder verwendet. Die Gantry-Rotationen und die Gewichtungen für das erste PTV sind in der Tabelle \ref{tab:Felder1} dargestellt.
+
+\begin{table}
+	\centering
+	\caption{Die Gantry-Rotation, Gewichtung und Feldgröße des ersten Bestrahlungsplan verwendeten Feldern.}
+	\label{tab:Felder1}
+	\begin{tabular}{c c c c}
+		\toprule
+		Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
+		\midrule
+		$1$ & $130°$   & $1,3$ & $\num{10}$x$\num{18.7} \si{\centi\meter\squared}$ \\
+		$2$ & $310°$  & $1.3$ & $\num{10.3}$x$\num{19.1} \si{\centi\meter\squared}$ \\
+		$1.0$ & $130°$ & $0.2$ & $\num{10}$x$\num{18.7} \si{\centi\meter\squared}$ \\
+		$2.0$ & $310°$ & $0.2$ & $\num{10.3}$x$\num{19.1} \si{\centi\meter\squared}$ \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Bei allen Feldern werden MLCs verwendet, die jeweils manuell an das PTV1 angepasst worden sind. Der Bestrahlungsplan wird auf $\SI{100}{\percent}$ target mean normiert. Zum ersten Mal wurde hier die \textit{field-in-field} Methode benutzt um die Inhomogenitäten der $\SI{95}{\percent}$ Isodosenlinie auszugleichen und für eine bessere Darstellung der Dosisverteilung.
+Für den Bestrahlungsplan für das PTV2 sind die Gewichtungen und die Gantry-Rotationen in der Tabelle \ref{tab:Felder2} zu sehen. Hierbei wurden auch 4 Felder benutzt und es wurden auch MLCs wieder verwendet, die jeweils manuell an das PTV2 angepasst werden. Dieser Bestrahlungsplan wird auch auf $\SI{100}{\percent}$ target mean normiert. Hier wurde auch die \textit{field-in-field} Methode benutzt.
+
+\begin{table}
+	\centering
+	\caption{Die Gantry-Rotation, Gewichtung und Feldgröße des ersten Bestrahlungsplan verwendeten Feldern.}
+	\label{tab:Felder2}
+	\begin{tabular}{c c c c}
+		\toprule
+		Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
+		\midrule
+		$1$ & $140°$   & $0.65$ & $\num{5.9}$x$\num{6.3} \si{\centi\meter\squared}$ \\
+		$2$ & $320°$  & $0.8$ & $\num{5.9}$x$\num{6.3} \si{\centi\meter\squared}$ \\
+		$3$ & $55°$ & $0.3$ & $\num{5.9}$x$\num{6.3} \si{\centi\meter\squared}$ \\
+		$1.0$ & $140°$ & $0.1$ & $\num{5.9}$x$\num{6.3} \si{\centi\meter\squared}$ \\
+		\bottomrule
+	\end{tabular}
+\end{table}
