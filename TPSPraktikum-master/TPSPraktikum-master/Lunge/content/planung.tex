@@ -1,0 +1,52 @@
+\section{Bestrahlungsplanung}
+\label{sec:Durchführung}
+
+Bevor mit der Bestrahlungsplanung begonnen wird, werden zunächst wichtige Strukturen in die
+CT-Daten eingezeichnet. Dabei wird zum einen der gesamte Thorax konturiert und auch mögliche
+Risikoorgane. Risikoorgane bei dieser Therapie sind die Lunge, das Herz, das Rückenmark und die
+Speiseröhre. Bei diesen Organen muss darauf geachtet werden, dass die Organdosisgrenzwerte nicht
+überschritten werden. Die beiden PTVs sind bereits in den CT-Daten eingezeichnet, als PTV1 und PTV2.
+Dabei ist PTV1 das größere Zielvolumen der ersten Bestrahlungsserie und PTV2 das kleinere.
+Da bei dieser Strahlentherapie mit der Shrinking-Field-Technik gearbeitet wird, müssen
+zwei Bestrahlungspläne erstellt werden.
+Bei der ersten Bestrahlungsserie wird nur das PTV1 betrachtet. Bei dieser Bestrahlung werden
+drei Felder verwendet. Die Gewichtungen, Gantry-Rotationen und Größen dieser Felder sind in der
+Tabelle \ref{tab:Felder1} dargestellt.
+
+\begin{table}
+  \centering
+  \caption{Die Gantry-Rotation, Gewichtung und Feldgröße der bei dem ersten Bestrahlungsplan verwendeten Feldern.}
+  \label{tab:Felder1}
+  \begin{tabular}{c c c c}
+    \toprule
+    Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
+    \midrule
+    $1$ & $235°$ & $0,8$ & $9,3$x$11,0 \si{\centi\meter\squared}$ \\
+    $2$ & $120°$ & $1,0$ & $10,1$x$10,4 \si{\centi\meter\squared}$ \\
+    $3$ & $320°$ & $1,0$ & $11,0$x$10,7 \si{\centi\meter\squared}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Dabei sind bei allen Feldern MLCs verwendet worden. Die MLCs sind manuell an das PTV1 angepasst worden.
+Bei dem zweiten Bestrahlungsplan wird das kleinere PTV2 betrachtet. Für diese Bestrahlung sind vier Felder
+verwendet worden. Die Daten dieser Felder sind in der Tabelle \ref{tab:Felder2} gezeigt.
+
+\begin{table}
+  \centering
+  \caption{Die Gantry-Rotation, Gewichtung und Feldgröße der bei dem zweiten Bestrahlungsplan verwendeten Feldern.}
+  \label{tab:Felder2}
+  \begin{tabular}{c c c c}
+    \toprule
+    Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
+    \midrule
+    $1$ & $0°$   & $0,6$ & $9,8$x$7,6 \si{\centi\meter\squared}$ \\
+    $2$ & $90°$  & $0,8$ & $9,4$x$7,6 \si{\centi\meter\squared}$ \\
+    $3$ & $270°$ & $0,7$ & $9,4$x$7,6 \si{\centi\meter\squared}$ \\
+    $4$ & $180°$ & $1,0$ & $9,8$x$7,6 \si{\centi\meter\squared}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Auch bei diesen Feldern sind immer MLCs verwendet worden, die an das PTV2 angepasst worden sind.
+Beide Bestrahlungspläne werden auf \enquote{$100\%$ target mean} normiert.
