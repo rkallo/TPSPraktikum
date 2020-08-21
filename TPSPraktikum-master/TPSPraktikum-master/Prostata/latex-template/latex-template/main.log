@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  19 AUG 2020 14:45
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  21 AUG 2020 13:08
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.244 seconds (./header.tex
+luaotfload | main : initialization completed in 0.301 seconds (./header.tex
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -2462,7 +2462,15 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 4.
+ [3])
 (./content/diskussion.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -2488,7 +2496,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 23.
-[3]
+[4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 25.
@@ -2498,43 +2506,45 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 25.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 25.
- [4]
+ [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 3C98DABB31B9128A5AA31F802830B7FC;3847.
+(rerunfilecheck)             Checksum: 9F225BED42E39966B97AB10797C0B282;4705.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 73B847479A508F34BC36B42A0251F744;485.
+(rerunfilecheck)             Checksum: 6D1B922B4EFF25D780C7E0816BE16E31;485.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42303 strings out of 494412
+ 42522 strings out of 494412
  100000,1648299 words of node,token memory allocated
- 619 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 8 attribute, 75 glue_spec, 8 attrib
+ 623 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 9 attribute, 75 glue_spec, 9 attrib
 ute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:2,2:531,3:135,4:46,5:231,6:13,7:3471,8:70,9:123,10:27,11:369,1
-2:1
- 45235 multiletter control sequences out of 65536+600000
- 142 fonts using 37130051 bytes
- 57i,7n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:2,2:1077,3:131,4:46,5:238,6:14,7:3895,8:99,9:287,10:27,11:439,
+12:1
+ 45383 multiletter control sequences out of 65536+600000
+ 210 fonts using 55475495 bytes
+ 57i,20n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/tex
 live/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2
-018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/20
-18/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/te
-xmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-d
-ist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts
-/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (4 pages, 40128 bytes).
+018/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2018/te
+xmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2018/texmf-dist
+/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2018/texmf-dist/
+fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/texmf-dist/fonts
+/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-dist/fonts/open
+type/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/opentype/publ
+ic/lm/lmroman12-bold.otf>
+Output written on main.pdf (5 pages, 47852 bytes).
 
-PDF statistics: 124 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 131072)
+PDF statistics: 148 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 100000000)
 

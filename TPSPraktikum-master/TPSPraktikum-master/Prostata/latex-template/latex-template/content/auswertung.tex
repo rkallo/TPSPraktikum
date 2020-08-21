@@ -1,3 +1,42 @@
 \section{Bestrahlungsplanung}
 \label{sec:Bestrahlungsplanung}
+Die beiden PTVs sind in den CT-Daten bereits eingezeichnet, als PTV-Intermediate und PTV-High. Dabei ist das PTV-Intermediate das größere Zielvolumen und das PTV-High das kleiner. Die Kontur des Körpers und die Kontur von Risikoorganen sind bereits auch eingezeichnet mit der Ausnahme von den Hüftköpfen. Diese mussten in den vorliegenden CT-Bildern noch nachgezeichnet werden. Risikoorgane bei dieser Bestrahlung sind das Rektum, die beiden Hüftköpfe und die Harnblase. Bei diesen Risikoorgane muss darauf geachtet werden, dass die Organdosisgrenzwerte nicht überschritten werden. Im ersten Bestrahlungsplan wird nur das PTV-Intermediate betrachtet. Für den ersten Bestrahlungsplan diese Zielvolumens werden 8 Felder benötigt. Die Gantry-Rotationen und die Gewichtungen für das erste PTV sind in der Tabelle \ref{tab:Felder1} dargestellt. 
 
+\begin{table}
+	\centering
+	\caption{Die Gantry-Rotation, Gewichtung und Feldgröße der beim ersten Bestrahlungsplan verwendeten Felder (PTV-Intermediate).}
+	\label{tab:Felder1}
+	\begin{tabular}{c c c c}
+		\toprule
+		Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
+		\midrule
+		$1$ & $0°$   & $0.4$ & $\num{9.8}$x$\num{8.1} \si{\centi\meter\squared}$ \\
+		$2$ & $130°$  & $0.15$ & $\num{10.8}$x$\num{9.4} \si{\centi\meter\squared}$ \\
+		$3$ & $230°$ & $0.1$ & $\num{9.1}$x$\num{8} \si{\centi\meter\squared}$ \\
+		$4$ & $180°$ & $0.05$ & $\num{10.1}$x$\num{8} \si{\centi\meter\squared}$ \\
+		$5$ & $280°$ & $0.1$ & $\num{10.7}$x$\num{9.4} \si{\centi\meter\squared}$ \\
+		$6$ & $80°$ & $0.2$ & $\num{9.1}$x$\num{8} \si{\centi\meter\squared}$ \\
+		$7$ & $170°$ & $0.05$ & $\num{9.6}$x$\num{8} \si{\centi\meter\squared}$ \\
+		$8$ & $30°$ & $0.1$ & $\num{9.6}$x$\num{8} \si{\centi\meter\squared}$ \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Bei allen Feldern werden MLCs verwendet, die manuell an das PTV-Intermediate angepasst werden. Für den zweiten Bestrahlungsplan wird das kleinere PTV-High betrachtet. Für diese Bestrahlung werden 5 Felder verwendet. Die Daten dieser Felder als auch deren Gewichtungen sind in der Tabelle \ref{tab:Felder2} gezeigt. Hier wurden auch MLCs verwendet, die manuell an das PTV-High angepasst worden sind. Beide Bestrahlungspläne werden auf $\SI{100}{\percent}$ target mean normiert.
+
+\begin{table}
+	\centering
+	\caption{Die Gantry-Rotation, Gewichtung und Feldgröße der beim ersten Bestrahlungsplan verwendeten Felder (PTV-Intermediate).}
+	\label{tab:Felder2}
+	\begin{tabular}{c c c c}
+		\toprule
+		Feld & Gantry-Rotation & Gewichtung & Feldgröße\\
+		\midrule
+		$1$ & $0°$   & $0.2$ & $\num{8.2}$x$\num{7.6} \si{\centi\meter\squared}$ \\
+		$2$ & $120°$  & $0.7$ & $\num{8.2}$x$\num{7.6} \si{\centi\meter\squared}$ \\
+		$3$ & $240°$ & $0.7$ & $\num{8.2}$x$\num{7.6} \si{\centi\meter\squared}$ \\
+		$4$ & $300°$ & $0.3$ & $\num{8.2}$x$\num{7.6} \si{\centi\meter\squared}$ \\
+		$5$ & $50°$ & $0.3$ & $\num{8.2}$x$\num{7.6} \si{\centi\meter\squared}$ \\
+		\bottomrule
+	\end{tabular}
+\end{table}
