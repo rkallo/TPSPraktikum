@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  24 AUG 2020 16:00
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  26 AUG 2020 10:20
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.259 seconds (./header.tex
+luaotfload | main : initialization completed in 0.400 seconds (./header.tex
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -962,13 +962,13 @@ Package babel Info: Non-standard hyphenation setup on input line 114.
 \l@uppersorbian=\language84
 \l@welsh=\language85
 )
-(c:/texlive/2018/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2018/03/29 v2.10 German support for babel (post-1996 orthograp
-hy)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2018/03/29 v2.10 German support for babel (pre-1996 orthography
+)
 
-(c:/texlive/2018/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2018/03/29 v2.10 German support for babel (post-1996 orthogra
-phy)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2018/03/29 v2.10 German support for babel (pre-1996 orthograph
+y)
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/09/02 3.23 Babel common definitions
@@ -976,14 +976,14 @@ File: babel.def 2018/09/02 3.23 Babel common definitions
 \U@D=\dimen156
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/luababel.def))
-Package babel Info: Making " an active character on input line 121.
+Package babel Info: Making " an active character on input line 135.
 
-(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.tex
-UTF-8 German hyphenation patterns (reformed orthography)
-(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.tex
+(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1901.tex
+UTF-8 German hyphenation patterns (traditional orthography)
+(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1901.tex
 
-German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2018-03-31
- (WL)))))) (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+German Hyphenation Patterns (Traditional Orthography) `dehypht-x' 2018-03-31 (W
+L)))))) (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2018/07/29 vv0.8m Unicode maths in XeLaTeX and LuaLaTeX
 
 (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
@@ -1787,7 +1787,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box57
 )
-Package scrhack Info: loading float hack on input line 78.
+Package scrhack Info: loading float hack on input line 81.
 
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2018/03/30 v3.25 KOMA-Script package (hacking package float)
@@ -2115,7 +2115,7 @@ File: biblatex.cfg
 ))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 127.
+(scrhack)             need that hack, on input line 130.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -2221,23 +2221,12 @@ Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
-
-(c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-)) (./main.aux)
+) (./main.aux)
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -2410,21 +2399,29 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmsans12-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
 he/generic/fonts/otl/lmmono12-regular.luc)
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 14.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 14.
  [1
 
@@ -2435,122 +2432,142 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \tf@toc=\write5
 
 \openout5 = main.toc
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 16.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 16.
-Package babel Info: Redefining ngerman shorthand "|
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 16.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 16.
  [2
 
-] (./content/theorie.tex
-Package babel Info: Redefining ngerman shorthand "|
+] (./content/Rechenaufgaben.tex
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "~
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 1.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman8-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
 he/generic/fonts/otl/lmroman5-regular.luc)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
- [3]) (./content/theorie2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-
- []
-
-
-Overfull \hbox (0.52913pt too wide) in paragraph at lines 36--37
-[]\TU/lmr/bx/n/10.95 6. Er-läu-tern Sie ei-nen Be-rech-nungs-al-go-rith-mus Ih
--rer Wahl. Den Pencil-Beam-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
-
- []
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 22.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 22.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 22.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 22.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 75.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 75.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 75.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 75.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 75.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 75.
+ [3]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 133.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 133.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 133.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 133.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 133.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 133.
+ [4]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 199.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 199.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 199.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 199.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 199.
+ [5]) (./content/Kurzfragen.tex
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 1.
+(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
+lmroman8-bold.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/
+generic/fonts/otl/lmroman5-bold.luc)
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 29.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 29.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 29.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 29.
+ [6])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 25.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 25.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 25.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 25.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 5306AD195450A3693A5B8F32D3692593;1805.
+(rerunfilecheck)             Checksum: 4ED5F9AE298D59958F43898378475750;1983.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 72D433924F9DDC5367BE0DE7EE15A3B2;205.
+(rerunfilecheck)             Checksum: 79AABDC98BC0E6699458BA356178C65E;260.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42067 strings out of 494412
+ 42286 strings out of 494412
  100000,1648299 words of node,token memory allocated
- 604 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 7 attribute, 74 glue_spec, 7 attrib
-ute_list, 1 write nodes
-   avail lists: 1:3,2:189,3:49,4:47,5:246,6:15,7:3875,8:13,9:92,10:25,11:469,12:
-1
- 45024 multiletter control sequences out of 65536+600000
- 141 fonts using 37038431 bytes
- 57i,8n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-<c:/texlive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><
-c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/tex
-live/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/
-2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2018/tex
-mf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-di
-st/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/
-opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (5 pages, 45501 bytes).
+ 685 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 30 attribute, 76 glue_spec, 30 attr
+ibute_list, 1 write nodes
+   avail lists: 1:1,2:1136,3:167,4:35,5:162,6:19,7:2605,8:83,9:384,10:16,11:297,
+12:1
+ 45178 multiletter control sequences out of 65536+600000
+ 210 fonts using 55475947 bytes
+ 57i,16n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+<c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
+ive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texli
+ve/2018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texliv
+e/2018/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2018
+/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2018/
+texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/texmf
+-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-dist
+/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/op
+entype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (7 pages, 59177 bytes).
 
-PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 131072)
- 9 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 123 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 131072)
+ 17 words of extra memory for PDF output out of 10000 (max. 100000000)
 
