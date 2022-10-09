@@ -1,0 +1,563 @@
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  28 AUG 2020 09:44
+ restricted system commands enabled.
+**theorie.tex
+(./theorie.tex
+LaTeX2e <2018-04-01> patch level 5
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/
+generic)(using read cache: C:/texlive/2018/texmf-var/luatex-cache/generic C:/Use
+rs/kallo/.texlive2018/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is C:/Users/kallo/.texlive2018/texmf-va
+r/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “c:/texlive/2018/texmf-dist/tex/luatex/luaotfload/fontloader-20
+17-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is C:/Users/kallo/.texlive2018/texmf-va
+r/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.246 seconds
+! Undefined control sequence.
+l.1 \section
+          {Einleitung}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{E
+            inleitung}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[]Einleitung
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 N
+   eben der Bestrahlung der Fersensporn wird die Strahlentherapie auch bei a...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
+[]Neben
+ []
+
+! Undefined control sequence.
+l.6 \section
+          {Patientenvorstellung}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \section{P
+            atientenvorstellung}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--8
+[]Patientenvorstellung
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 S
+   eit Mai 2015 hat die Patienten Beschwerden an der linken Hüfte. Zur Lind...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.9 ...ktion und Hypercholesterinämie. Sie ist $\SI
+                                                  {160}{\centi\meter}$ groß...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 ...percholesterinämie. Sie ist $\SI{160}{\centi
+                                                  \meter}$ groß und hat ein...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 ...lesterinämie. Sie ist $\SI{160}{\centi\meter
+                                                  }$ groß und hat ein Gewic...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.9 ...ti\meter}$ groß und hat ein Gewicht von $\SI
+                                                  {60}{\kilo\gram}$. Die lat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 ... groß und hat ein Gewicht von $\SI{60}{\kilo
+                                                  \gram}$. Die lateralen Dru...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 ... und hat ein Gewicht von $\SI{60}{\kilo\gram
+                                                  }$. Die lateralen Drucksch...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.9 ...ungsplanung gehört eine Gesamtdosis von $\SI
+                                                  {3}{\gray}$, welche in Fra...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 ...ng gehört eine Gesamtdosis von $\SI{3}{\gray
+                                                  }$, welche in Fraktionen v...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.9 ...\SI{3}{\gray}$, welche in Fraktionen von $\SI
+                                                  {0,5}{\gray}$ in insgesamt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 ...y}$, welche in Fraktionen von $\SI{0,5}{\gray
+                                                  }$ in insgesamt 6 Bestrahl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
+[]Seit
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 9--10
+[][]$
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 9--10
+[][]$.
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 3[]$\nullfont ,
+ []
+
+
+Overfull \hbox (14.44444pt too wide) in paragraph at lines 9--10
+[][]$
+ []
+
+! Undefined control sequence.
+l.11 \section
+           {Bestrahlungsplanung}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \section{B
+             estrahlungsplanung}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--13
+[]Bestrahlungsplanung
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 D
+    as PTV ist in den CT-Daten bereits eingezeichnet und als nächstes wurde...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.14 ... dass das Planungszielvolumen durch die $\SI
+                                                  {95}{\percent}$ Isodosenli...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...nungszielvolumen durch die $\SI{95}{\percent
+                                                  }$ Isodosenlinie umschloss...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.14 ...hlossen wird. Das Dosismaximum soll bei $\SI
+                                                  {115}{\percent}$ liegen. F...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...Das Dosismaximum soll bei $\SI{115}{\percent
+                                                  }$ liegen. Für die Bestra...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.14 ... und zwar beide haben eine Größe von  $\SI
+                                                  {14}{\centi\meter}$ x $\SI...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...eide haben eine Größe von  $\SI{14}{\centi
+                                                  \meter}$ x $\SI{11.5}{\cen...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...aben eine Größe von  $\SI{14}{\centi\meter
+                                                  }$ x $\SI{11.5}{\centi\met...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.14 ... Größe von  $\SI{14}{\centi\meter}$ x $\SI
+                                                  {11.5}{\centi\meter}$. Bei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ... $\SI{14}{\centi\meter}$ x $\SI{11.5}{\centi
+                                                  \meter}$. Beim ersten Feld...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...14}{\centi\meter}$ x $\SI{11.5}{\centi\meter
+                                                  }$. Beim ersten Feld gibt ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \SI 
+    
+l.14 ...^\circ$. Der Bestrahlungsplan wird auf "$\SI
+                                                  {100}{\percent}$ target me...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...estrahlungsplan wird auf "$\SI{100}{\percent
+                                                  }$ target mean" normiert. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+luaotfload | db : Font names database loaded from C:/Users/kallo/.texlive2018/te
+xmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: C:/Users/kallo
+/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)(lo
+ad luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmr
+oman10-bold.luc)
+! Undefined control sequence.
+<write> ...arning: Reference `fig:kombi' on page \thepage 
+                                                  \space undefined\on@line .
+l.14 ...en. Das ist in der Abbildung \ref{fig:kombi}
+                                                   zu sehen.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:kombi' on page  undefined on input line 14.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
+[]Das
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 14--15
+[][]$
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 14--15
+[][]$
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 14--15
+[][]$
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 14--15
+[][]$.
+ []
+
+
+Overfull \hbox (9.59724pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 0[]$
+ []
+
+
+Overfull \hbox (19.59727pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 180[]$\nullfont .
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 14--15
+"$[][]$
+ []
+
+
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 14--15
+[]
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \begin{figure}
+                 [htpb]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \begin{figure}[
+                  htpb]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.18 	\includegraphics
+                    [width=0.7\linewidth]{../Bilder/kombi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.18 	\includegraphics[width=0.7\linewidth]
+                                         {../Bilder/kombi}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.18 	\includegraphics[width=0.7\linewidth]
+                                         {../Bilder/kombi}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 	\caption
+            {Zu sehen ist die Darstellung der Lamellen. Beim oberen Bild han...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \end{figure}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> theorie.tex
+            
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 29 strings out of 494412
+ 100000,89155 words of node,token memory allocated 18686 words of node memory still in use:
+   65 hlist, 5 disc, 7 local_par, 1 dir, 16 math, 407 glue, 14 penalty, 2075 gly
+ph, 54 attribute, 35 glue_spec, 54 attribute_list, 1 temp, 4 write nodes
+   avail lists: 3:3,4:68,5:6,8:6,9:1,10:67
+ 4310 multiletter control sequences out of 65536+600000
+ 26 fonts using 1038151 bytes
+ 18i,2n,16p,1094b,96s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

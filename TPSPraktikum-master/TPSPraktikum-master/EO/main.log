@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  28 AUG 2020 09:42
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  28 AUG 2020 11:36
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.323 seconds (./header.tex
+luaotfload | main : initialization completed in 0.266 seconds (./header.tex
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -2229,41 +2229,41 @@ File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 ) (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/LatinModernMath(1)/m/n --> TU/lmr/m/n on input line 1
-1.
+0.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 11.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 11.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 11.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 11.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 11.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 11.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 10.
 
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -2275,7 +2275,7 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fontspec' on line 11.
+. Activating mapping `fontspec' on line 10.
 .................................................
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -2311,7 +2311,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 11.
+LaTeX Info: Redefining \microtypecontext on input line 10.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2336,10 +2336,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 11.
-Package biblatex Info: Reference segment=0 on input line 11.
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 10.
  (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2348,9 +2348,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count447
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LatinModernMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2385,65 +2385,65 @@ e/generic/fonts/otl/lmroman12-bold.luc)(load luc: C:/Users/kallo/.texlive2018/te
 xmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc)(load luc: C:/Users/kal
 lo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.4002pt on input line 14.
+(Font)              scaled to size 14.4002pt on input line 13.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 14.
+(Font)              scaled to size 10.00015pt on input line 13.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 14.
+(Font)              scaled to size 7.0001pt on input line 13.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 14.39977pt on input line 14.
+(Font)              scaled to size 14.39977pt on input line 13.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 14.
+(Font)              scaled to size 9.99985pt on input line 13.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 14.
+(Font)              scaled to size 6.9999pt on input line 13.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmsans12-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
 he/generic/fonts/otl/lmmono12-regular.luc)
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 13.
  [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package tocbasic Info: character protrusion at toc deactivated on input line 15.
+Package tocbasic Info: character protrusion at toc deactivated on input line 14.
 
  (./main.toc)
 \tf@toc=\write5
 
 \openout5 = main.toc
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 15.
  [2
 
 ] (./content/theorie.tex
@@ -2453,124 +2453,147 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 1.
+) (./content/durchfuehrung.tex
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 1.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman8-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
-he/generic/fonts/otl/lmroman5-regular.luc)
+he/generic/fonts/otl/lmroman5-regular.luc)) (./content/auswertung.tex
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 21.
-<../Bilder/kombi.jpg, id=33, 446.41782pt x 457.71pt>
-File: ../Bilder/kombi.jpg Graphic file (type jpg)
-<use ../Bilder/kombi.jpg>
-Package luatex.def Info: ../Bilder/kombi.jpg  used on input line 34.
-(luatex.def)             Requested size: 418.25555pt x 428.84367pt.
+(babel)             in language  on input line 1.
+<Bilder/MLC_Feld1.png, id=34, 1215.54124pt x 624.3325pt>
+File: Bilder/MLC_Feld1.png Graphic file (type png)
+<use Bilder/MLC_Feld1.png>
+Package luatex.def Info: Bilder/MLC_Feld1.png  used on input line 15.
+(luatex.def)             Requested size: 334.60571pt x 171.85867pt.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 35.
+(Font)              scaled to size 5.00008pt on input line 16.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 35.
+(Font)              scaled to size 4.99992pt on input line 16.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 18.
  [3]
+<Bilder/MLC_Feld2.png, id=46, 1215.54124pt x 624.3325pt>
+File: Bilder/MLC_Feld2.png Graphic file (type png)
+<use Bilder/MLC_Feld2.png>
+Package luatex.def Info: Bilder/MLC_Feld2.png  used on input line 22.
+(luatex.def)             Requested size: 334.60571pt x 171.85867pt.
+) (./content/diskussion.tex
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 48.
- [4<../Bilder/kombi.jpg>]
-<../Bilder/EllenbogenX.png, id=56, 1213.53375pt x 623.32875pt>
-File: ../Bilder/EllenbogenX.png Graphic file (type png)
-<use ../Bilder/EllenbogenX.png>
-Package luatex.def Info: ../Bilder/EllenbogenX.png  used on input line 51.
-(luatex.def)             Requested size: 418.25555pt x 214.8394pt.
-<../Bilder/EllenbogenY.png, id=57, 1213.53375pt x 623.32875pt>
-File: ../Bilder/EllenbogenY.png Graphic file (type png)
-<use ../Bilder/EllenbogenY.png>
-Package luatex.def Info: ../Bilder/EllenbogenY.png  used on input line 58.
-(luatex.def)             Requested size: 418.25555pt x 214.8394pt.
-<../Bilder/EllenbogenZ.png, id=58, 1213.53375pt x 623.32875pt>
-File: ../Bilder/EllenbogenZ.png Graphic file (type png)
-<use ../Bilder/EllenbogenZ.png>
-Package luatex.def Info: ../Bilder/EllenbogenZ.png  used on input line 65.
-(luatex.def)             Requested size: 418.25555pt x 214.8394pt.
+(babel)             in language  on input line 10.
+ [4<./Bilder/MLC_Feld1.png><./Bilder/MLC_Feld2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 18--34
+
+ []
+
+<Bilder/EO_X_mitPTV.png, id=65, 1214.5375pt x 623.32875pt>
+File: Bilder/EO_X_mitPTV.png Graphic file (type png)
+<use Bilder/EO_X_mitPTV.png>
+Package luatex.def Info: Bilder/EO_X_mitPTV.png  used on input line 40.
+(luatex.def)             Requested size: 418.25555pt x 214.65869pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/EO_Y_mitPTV.png, id=66, 1214.5375pt x 623.32875pt>
+File: Bilder/EO_Y_mitPTV.png Graphic file (type png)
+<use Bilder/EO_Y_mitPTV.png>
+Package luatex.def Info: Bilder/EO_Y_mitPTV.png  used on input line 47.
+(luatex.def)             Requested size: 418.25555pt x 214.65869pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/EO_Z.png, id=67, 1214.5375pt x 623.32875pt>
+File: Bilder/EO_Z.png Graphic file (type png)
+<use Bilder/EO_Z.png>
+Package luatex.def Info: Bilder/EO_Z.png  used on input line 54.
+(luatex.def)             Requested size: 418.25555pt x 214.65869pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/DVH_Einzel.png, id=68, 739.563pt x 385.44pt>
+File: Bilder/DVH_Einzel.png Graphic file (type png)
+<use Bilder/DVH_Einzel.png>
+Package luatex.def Info: Bilder/DVH_Einzel.png  used on input line 61.
+(luatex.def)             Requested size: 418.25555pt x 217.99161pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 69.
- [5<../Bilder/EllenbogenX.png><../Bilder/EllenbogenY.png>]
-<../Bilder/DVH_EllenbogenEinzel.png, id=67, 1213.53375pt x 623.32875pt>
-File: ../Bilder/DVH_EllenbogenEinzel.png Graphic file (type png)
-<use ../Bilder/DVH_EllenbogenEinzel.png>
-Package luatex.def Info: ../Bilder/DVH_EllenbogenEinzel.png  used on input line 
-83.
-(luatex.def)             Requested size: 418.25555pt x 214.8394pt.
+(babel)             in language  on input line 22.
+ [5]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 87.
- [6<../Bilder/EllenbogenZ.png>])
+(babel)             in language  on input line 22.
+ [6<./Bilder/EO_X_mitPTV.png><./Bilder/EO_Y_mitPTV.png>]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 21.
- [7<../Bilder/DVH_EllenbogenEinzel.png>]
+(babel)             in language  on input line 22.
+ [7<./Bilder/EO_Z.png><./Bilder/DVH_Einzel.png>]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 22.
 Package babel Info: Redefining german shorthand "|
@@ -2579,42 +2602,49 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 22.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmromancaps10-regular.luc)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
+Overfull \hbox (28.51529pt too wide) in paragraph at lines 22--22
+\TU/lmtt/m/n/10.95 schilddruesenzentrum - koeln . de / wissenswertes / erkranku
+ngen - der - schilddruese /
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 26.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
+(babel)             in language  on input line 24.
+[8
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 576BBE1E3697609EAE0E7F2F01CB9EB3;5766.
+(rerunfilecheck)             Checksum: A29E9A36C3B2F19C27ACB88D22677D9F;6384.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 6FE84A1C94CAF7E514955B96FB4E631A;484.
+(rerunfilecheck)             Checksum: CBFE53F57CD9DA18A82EECEF21715362;484.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42370 strings out of 494412
+ 42408 strings out of 494412
  100000,1648299 words of node,token memory allocated
- 624 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 8 attribute, 76 glue_spec, 8 attrib
-ute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:3,2:402,3:70,4:52,5:241,6:10,7:3334,8:60,9:115,10:24,11:383,12
-:1
- 45306 multiletter control sequences out of 65536+600000
+ 639 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 10 attribute, 75 glue_spec, 10 attr
+ibute_list, 1 write, 3 pdf_action nodes
+   avail lists: 1:3,2:536,3:169,4:57,5:256,6:17,7:3765,8:116,9:182,10:27,11:424,
+12:1
+ 45311 multiletter control sequences out of 65536+600000
  156 fonts using 40433895 bytes
  57i,7n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
@@ -2627,10 +2657,10 @@ dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/texmf-dist/
 fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-dist/fonts
 /opentype/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/opentype
 /public/lm/lmroman12-bold.otf>
-Output written on main.pdf (8 pages, 878167 bytes).
+Output written on main.pdf (8 pages, 1218786 bytes).
 
-PDF statistics: 173 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 131072)
+PDF statistics: 189 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 100000000)
 

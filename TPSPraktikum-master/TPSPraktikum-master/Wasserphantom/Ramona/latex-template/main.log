@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  28 AUG 2020 09:42
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/W32TeX)  (format=lualatex 2018.9.26)  26 AUG 2020 11:14
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.323 seconds (./header.tex
+luaotfload | main : initialization completed in 0.367 seconds (./header.tex
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
 (c:/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -962,13 +962,13 @@ Package babel Info: Non-standard hyphenation setup on input line 114.
 \l@uppersorbian=\language84
 \l@welsh=\language85
 )
-(c:/texlive/2018/texmf-dist/tex/generic/babel-german/german.ldf
-Language: german 2018/03/29 v2.10 German support for babel (pre-1996 orthography
-)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2018/03/29 v2.10 German support for babel (post-1996 orthograp
+hy)
 
-(c:/texlive/2018/texmf-dist/tex/generic/babel-german/germanb.ldf
-Language: germanb 2018/03/29 v2.10 German support for babel (pre-1996 orthograph
-y)
+(c:/texlive/2018/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2018/03/29 v2.10 German support for babel (post-1996 orthogra
+phy)
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/09/02 3.23 Babel common definitions
@@ -976,14 +976,14 @@ File: babel.def 2018/09/02 3.23 Babel common definitions
 \U@D=\dimen156
 
 (c:/texlive/2018/texmf-dist/tex/generic/babel/luababel.def))
-Package babel Info: Making " an active character on input line 135.
+Package babel Info: Making " an active character on input line 121.
 
-(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1901.tex
-UTF-8 German hyphenation patterns (traditional orthography)
-(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1901.tex
+(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.tex
+UTF-8 German hyphenation patterns (reformed orthography)
+(c:/texlive/2018/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.tex
 
-German Hyphenation Patterns (Traditional Orthography) `dehypht-x' 2018-03-31 (W
-L)))))) (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2018-03-31
+ (WL)))))) (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2018/07/29 vv0.8m Unicode maths in XeLaTeX and LuaLaTeX
 
 (c:/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
@@ -2221,12 +2221,23 @@ Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-) (./main.aux)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+)) (./main.aux)
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -2399,29 +2410,21 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmsans12-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
 he/generic/fonts/otl/lmmono12-regular.luc)
-Package babel Info: Redefining german shorthand "f
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "|
+Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "~
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "f
+Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "|
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "~
+Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "f
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 14.
-Package babel Info: Redefining german shorthand "~
+Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 14.
  [1
 
@@ -2432,205 +2435,653 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \tf@toc=\write5
 
 \openout5 = main.toc
-Package babel Info: Redefining german shorthand "f
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "|
+Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "~
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "~
+Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
  [2
 
-] (./content/theorie.tex
-Package babel Info: Redefining german shorthand "f
+] (./content/Begriffe.tex
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
-Package babel Info: Redefining german shorthand "|
+Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 8.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 8.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--13
+
+ []
+
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman8-regular.luc)(load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cac
 he/generic/fonts/otl/lmroman5-regular.luc)
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 21.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 21.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 21.
-<../Bilder/kombi.jpg, id=33, 446.41782pt x 457.71pt>
-File: ../Bilder/kombi.jpg Graphic file (type jpg)
-<use ../Bilder/kombi.jpg>
-Package luatex.def Info: ../Bilder/kombi.jpg  used on input line 34.
-(luatex.def)             Requested size: 418.25555pt x 428.84367pt.
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 53.
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 53--62
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 68.
+[4]) (./content/Teil1und2.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 7.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 27.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 33.
+ [5]
+<../../Wasserphantom Bilder/AnleitungersteVerteilung.png, id=92, 1096.095pt x 55
+3.06625pt>
+File: ../../Wasserphantom Bilder/AnleitungersteVerteilung.png Graphic file (type
+ png)
+<use ../../Wasserphantom Bilder/AnleitungersteVerteilung.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/AnleitungersteVerteilung.png
+  used on input line 36.
+(luatex.def)             Requested size: 292.7776pt x 147.72644pt.
+<../../Wasserphantom Bilder/ersteVerteilung.png, id=95, 1215.54124pt x 620.3175p
+t>
+File: ../../Wasserphantom Bilder/ersteVerteilung.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/ersteVerteilung.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/ersteVerteilung.png  used on
+ input line 43.
+(luatex.def)             Requested size: 292.7776pt x 149.40929pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 48.
+<../../Wasserphantom Bilder/AnleitungzweiteVerteilung.png, id=98, 1096.095pt x 5
+52.0625pt>
+File: ../../Wasserphantom Bilder/AnleitungzweiteVerteilung.png Graphic file (typ
+e png)
+<use ../../Wasserphantom Bilder/AnleitungzweiteVerteilung.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/AnleitungzweiteVerteilung.pn
+g  used on input line 53.
+(luatex.def)             Requested size: 292.7776pt x 147.45834pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 57.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 57.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 57.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 57.
+ [6<../../Wasserphantom Bilder/AnleitungersteVerteilung.png><../../Wasserphantom
+ Bilder/ersteVerteilung.png>]
+<../../Wasserphantom Bilder/zweiteVerteilung.png, id=112, 1215.54124pt x 620.317
+5pt>
+File: ../../Wasserphantom Bilder/zweiteVerteilung.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/zweiteVerteilung.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/zweiteVerteilung.png  used o
+n input line 60.
+(luatex.def)             Requested size: 292.7776pt x 149.40929pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 65.
+<../../Wasserphantom Bilder/AnleitungdritteVerteilung.png, id=115, 1096.095pt x 
+551.05875pt>
+File: ../../Wasserphantom Bilder/AnleitungdritteVerteilung.png Graphic file (typ
+e png)
+<use ../../Wasserphantom Bilder/AnleitungdritteVerteilung.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/AnleitungdritteVerteilung.pn
+g  used on input line 72.
+(luatex.def)             Requested size: 292.7776pt x 147.19023pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 76.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 76.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 76.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 76.
+ [7<../../Wasserphantom Bilder/AnleitungzweiteVerteilung.png><../../Wasserphanto
+m Bilder/zweiteVerteilung.png>]
+<../../Wasserphantom Bilder/dritteVerteilung.png, id=127, 1214.5375pt x 621.3212
+4pt>
+File: ../../Wasserphantom Bilder/dritteVerteilung.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/dritteVerteilung.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/dritteVerteilung.png  used o
+n input line 79.
+(luatex.def)             Requested size: 292.7776pt x 149.7743pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 85.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 88.
+<../../Wasserphantom Bilder/Aufgabe2.1_2.png, id=129, 1211.52625pt x 620.3175pt>
+
+File: ../../Wasserphantom Bilder/Aufgabe2.1_2.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe2.1_2.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe2.1_2.png  used on in
+put line 98.
+(luatex.def)             Requested size: 376.42744pt x 192.73184pt.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 35.
+(Font)              scaled to size 5.00008pt on input line 99.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 35.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 38.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 38.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 38.
- [3]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 40.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 40.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 40.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 48.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 48.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 48.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 48.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 48.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 48.
- [4<../Bilder/kombi.jpg>]
-<../Bilder/EllenbogenX.png, id=56, 1213.53375pt x 623.32875pt>
-File: ../Bilder/EllenbogenX.png Graphic file (type png)
-<use ../Bilder/EllenbogenX.png>
-Package luatex.def Info: ../Bilder/EllenbogenX.png  used on input line 51.
-(luatex.def)             Requested size: 418.25555pt x 214.8394pt.
-<../Bilder/EllenbogenY.png, id=57, 1213.53375pt x 623.32875pt>
-File: ../Bilder/EllenbogenY.png Graphic file (type png)
-<use ../Bilder/EllenbogenY.png>
-Package luatex.def Info: ../Bilder/EllenbogenY.png  used on input line 58.
-(luatex.def)             Requested size: 418.25555pt x 214.8394pt.
-<../Bilder/EllenbogenZ.png, id=58, 1213.53375pt x 623.32875pt>
-File: ../Bilder/EllenbogenZ.png Graphic file (type png)
-<use ../Bilder/EllenbogenZ.png>
-Package luatex.def Info: ../Bilder/EllenbogenZ.png  used on input line 65.
-(luatex.def)             Requested size: 418.25555pt x 214.8394pt.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 69.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 69.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 69.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 69.
- [5<../Bilder/EllenbogenX.png><../Bilder/EllenbogenY.png>]
-<../Bilder/DVH_EllenbogenEinzel.png, id=67, 1213.53375pt x 623.32875pt>
-File: ../Bilder/DVH_EllenbogenEinzel.png Graphic file (type png)
-<use ../Bilder/DVH_EllenbogenEinzel.png>
-Package luatex.def Info: ../Bilder/DVH_EllenbogenEinzel.png  used on input line 
-83.
-(luatex.def)             Requested size: 418.25555pt x 214.8394pt.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 87.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 87.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 87.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 87.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 87.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 87.
- [6<../Bilder/EllenbogenZ.png>])
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 21.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 21.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 21.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 21.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 21.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 21.
- [7<../Bilder/DVH_EllenbogenEinzel.png>]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 22.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 22.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 22.
+(Font)              scaled to size 4.99992pt on input line 99.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+ [8<../../Wasserphantom Bilder/AnleitungdritteVerteilung.png><../../Wasserphanto
+m Bilder/dritteVerteilung.png>]
+<../../Wasserphantom Bilder/Aufgabe213.png, id=139, 761.84625pt x 540.0175pt>
+File: ../../Wasserphantom Bilder/Aufgabe213.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe213.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe213.png  used on inpu
+t line 107.
+(luatex.def)             Requested size: 292.7776pt x 207.52422pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 120.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 120.
+ [9<../../Wasserphantom Bilder/Aufgabe2.1_2.png><../../Wasserphantom Bilder/Aufg
+abe213.png>]
+<../../Wasserphantom Bilder/Aufgabe2.1_4.png, id=151, 1215.54124pt x 626.34pt>
+File: ../../Wasserphantom Bilder/Aufgabe2.1_4.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe2.1_4.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe2.1_4.png  used on in
+put line 123.
+(luatex.def)             Requested size: 292.7776pt x 150.85986pt.
+<../../Wasserphantom Bilder/Aufgabe215.png, id=154, 682.55pt x 515.9275pt>
+File: ../../Wasserphantom Bilder/Aufgabe215.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe215.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe215.png  used on inpu
+t line 151.
+(luatex.def)             Requested size: 292.7776pt x 221.30917pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
+ [10<../../Wasserphantom Bilder/Aufgabe2.1_4.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 156.
+<../../Wasserphantom Bilder/Aufgabe222.png, id=162, 1216.545pt x 611.28375pt>
+File: ../../Wasserphantom Bilder/Aufgabe222.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe222.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe222.png  used on inpu
+t line 164.
+(luatex.def)             Requested size: 292.7776pt x 147.11217pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 174.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 174.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 174.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 174.
+ [11<../../Wasserphantom Bilder/Aufgabe215.png><../../Wasserphantom Bilder/Aufga
+be222.png>]
+<../../Wasserphantom Bilder/Aufgabe223.png, id=174, 1216.545pt x 611.28375pt>
+File: ../../Wasserphantom Bilder/Aufgabe223.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe223.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe223.png  used on inpu
+t line 195.
+(luatex.def)             Requested size: 292.7776pt x 147.11217pt.
+<../../Wasserphantom Bilder/Aufgabe224.png, id=176, 1037.8775pt x 672.5125pt>
+File: ../../Wasserphantom Bilder/Aufgabe224.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe224.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe224.png  used on inpu
+t line 205.
+(luatex.def)             Requested size: 292.7776pt x 189.70807pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 209.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 209.
+ [12<../../Wasserphantom Bilder/Aufgabe223.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 254.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 254.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 254.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 254.
+ [13<../../Wasserphantom Bilder/Aufgabe224.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 256.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 256.
+<../../Wasserphantom Bilder/Aufgabe233.png, id=198, 1445.4pt x 776.9025pt>
+File: ../../Wasserphantom Bilder/Aufgabe233.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe233.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe233.png  used on inpu
+t line 264.
+(luatex.def)             Requested size: 292.7776pt x 157.36931pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 283.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 283.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 283.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 283.
+ [14<../../Wasserphantom Bilder/Aufgabe233.png>]
+<../../Wasserphantom Bilder/Aufgabe244.png, id=211, 1215.54124pt x 622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe244.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe244.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe244.png  used on inpu
+t line 315.
+(luatex.def)             Requested size: 292.7776pt x 149.8928pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 319.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 319.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 319.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 319.
+ [15]
+<../../Wasserphantom Bilder/Aufgabe2441.png, id=220, 1215.54124pt x 622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe2441.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe2441.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe2441.png  used on inp
+ut line 322.
+(luatex.def)             Requested size: 292.7776pt x 149.8928pt.
+<../../Wasserphantom Bilder/Aufgabe234.png, id=221, 1445.4pt x 776.9025pt>
+File: ../../Wasserphantom Bilder/Aufgabe234.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe234.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe234.png  used on inpu
+t line 330.
+(luatex.def)             Requested size: 292.7776pt x 157.36931pt.
+) (./content/Teil3.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 17.
+[16<../../Wasserphantom Bilder/Aufgabe244.png><../../Wasserphantom Bilder/Aufgab
+e2441.png><../../Wasserphantom Bilder/Aufgabe234.png>]
+<../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png, id=230, 1215.54124pt x 
+622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png Graphic file (type 
+png)
+<use ../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png 
+ used on input line 20.
+(luatex.def)             Requested size: 418.25555pt x 214.1326pt.
+<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png, id=235, 1215.54124pt x 
+622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png Graphic file (type 
+png)
+<use ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png 
+ used on input line 32.
+(luatex.def)             Requested size: 418.25555pt x 214.1326pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 36.
+ [17<../../Wasserphantom Bilder/Aufgabe3.1_OhneReferenz.png>]
+<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png, id=247, 1215.54124pt x 
+622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png Graphic file (type 
+png)
+<use ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzFett.png 
+ used on input line 39.
+(luatex.def)             Requested size: 418.25555pt x 214.1326pt.
+<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png, id=248, 1215.54124pt 
+x 622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png Graphic file (typ
+e png)
+<use ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.pn
+g  used on input line 46.
+(luatex.def)             Requested size: 418.25555pt x 214.1326pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 50.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 50.
+ [18<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzLuft.png><../../Wasserphantom
+ Bilder/Aufgabe3.1_ReferenzFett.png>]
+<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png, id=255, 1215.54124pt
+ x 622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png Graphic file (ty
+pe png)
+<use ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_ReferenzKnochen.p
+ng  used on input line 53.
+(luatex.def)             Requested size: 418.25555pt x 214.1326pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--68
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 68.
+[19<../../Wasserphantom Bilder/Aufgabe3.1_ReferenzWasser.png><../../Wasserphanto
+m Bilder/Aufgabe3.1_ReferenzKnochen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 69--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--110
+
+ []
+
+<../../Wasserphantom Bilder/Aufgabe3.1_8.png, id=264, 1445.4pt x 622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe3.1_8.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe3.1_8.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_8.png  used on in
+put line 124.
+(luatex.def)             Requested size: 418.25555pt x 180.08029pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 127.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 127.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 127.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 127.
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 129--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--146
+
+ []
+
+<../../Wasserphantom Bilder/Aufgabe3.1_9.png, id=271, 1216.545pt x 622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe3.1_9.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe3.1_9.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_9.png  used on in
+put line 152.
+(luatex.def)             Requested size: 418.25555pt x 213.95218pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 156.
+[21<../../Wasserphantom Bilder/Aufgabe3.1_8.png>]
+<../../Wasserphantom Bilder/Aufgabe3.1_10.png, id=282, 1216.545pt x 622.325pt>
+File: ../../Wasserphantom Bilder/Aufgabe3.1_10.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/Aufgabe3.1_10.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/Aufgabe3.1_10.png  used on i
+nput line 166.
+(luatex.def)             Requested size: 418.25555pt x 213.95218pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 170.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 170.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 170.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 170.
+ [22<../../Wasserphantom Bilder/Aufgabe3.1_9.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 176.
+<build/Aufgabe3.2.pdf, id=290, 417.7206pt x 258.00488pt>
+File: build/Aufgabe3.2.pdf Graphic file (type pdf)
+<use build/Aufgabe3.2.pdf>
+Package luatex.def Info: build/Aufgabe3.2.pdf  used on input line 195.
+(luatex.def)             Requested size: 418.25555pt x 258.33493pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 199.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 199.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 199.
+ [23<../../Wasserphantom Bilder/Aufgabe3.1_10.png>]
+<../../Wasserphantom Bilder/TDK_Luft.png, id=301, 971.63pt x 559.08875pt>
+File: ../../Wasserphantom Bilder/TDK_Luft.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/TDK_Luft.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/TDK_Luft.png  used on input 
+line 221.
+(luatex.def)             Requested size: 418.25555pt x 240.66792pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 225.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 225.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 225.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 225.
+
+[24<./build/Aufgabe3.2.pdf>]
+<../../Wasserphantom Bilder/TDK_Wasser.png, id=331, 1111.15125pt x 572.1375pt>
+File: ../../Wasserphantom Bilder/TDK_Wasser.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/TDK_Wasser.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/TDK_Wasser.png  used on inpu
+t line 228.
+(luatex.def)             Requested size: 418.25555pt x 215.36293pt.
+<../../Wasserphantom Bilder/TDK_Fett.png, id=332, 1062.97125pt x 594.22pt>
+File: ../../Wasserphantom Bilder/TDK_Fett.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/TDK_Fett.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/TDK_Fett.png  used on input 
+line 235.
+(luatex.def)             Requested size: 418.25555pt x 233.81215pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 239.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 239.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 239.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 239.
+ [25<../../Wasserphantom Bilder/TDK_Luft.png><../../Wasserphantom Bilder/TDK_Was
+ser.png>]
+<../../Wasserphantom Bilder/TDK_Knochen.png, id=339, 1024.82875pt x 514.92375pt>
+
+File: ../../Wasserphantom Bilder/TDK_Knochen.png Graphic file (type png)
+<use ../../Wasserphantom Bilder/TDK_Knochen.png>
+Package luatex.def Info: ../../Wasserphantom Bilder/TDK_Knochen.png  used on inp
+ut line 242.
+(luatex.def)             Requested size: 418.25555pt x 210.15367pt.
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 23.
+ [26<../../Wasserphantom Bilder/TDK_Fett.png><../../Wasserphantom Bilder/TDK_Kno
+chen.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
 (load luc: C:/Users/kallo/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/
 lmromancaps10-regular.luc)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 26.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 26.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 26.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 26.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
+Overfull \hbox (14.13794pt too wide) in paragraph at lines 24--24
+\TU/lmtt/m/n/10.95 dortmund . de / pluginfile . php / 1245681 / mod _ resource 
+/ content / 0 / Wasserphantom .
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
+[27]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 576BBE1E3697609EAE0E7F2F01CB9EB3;5766.
+(rerunfilecheck)             Checksum: B132E2DC978C0C8EF2D5CC02365B29BF;22636.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 6FE84A1C94CAF7E514955B96FB4E631A;484.
+(rerunfilecheck)             Checksum: 8B09E749DD3EC77DB8FA4374E99FECDD;1785.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 42370 strings out of 494412
+ 42895 strings out of 494412
  100000,1648299 words of node,token memory allocated
- 624 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 8 attribute, 76 glue_spec, 8 attrib
-ute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:3,2:402,3:70,4:52,5:241,6:10,7:3334,8:60,9:115,10:24,11:383,12
-:1
- 45306 multiletter control sequences out of 65536+600000
- 156 fonts using 40433895 bytes
- 57i,7n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 648 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 10 attribute, 78 glue_spec, 10 attr
+ibute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:3,2:635,3:143,4:57,5:254,6:37,7:3947,8:100,9:137,10:28,11:416,
+12:1
+ 45598 multiletter control sequences out of 65536+600000
+ 223 fonts using 58686319 bytes
+ 57i,13n,80p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
 xlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/tex
 live/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2
-018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2018/texm
-f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2018/texmf
--dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2018/texmf-
-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/texmf-dist/
-fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-dist/fonts
-/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/opentype
-/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (8 pages, 878167 bytes).
+018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/20
+18/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2018/tex
+mf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2018/texm
+f-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2018/texmf-dist/f
+onts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2018/texmf-dist/fonts/
+opentype/public/lm/lmroman12-regular.otf><c:/texlive/2018/texmf-dist/fonts/opent
+ype/public/lm/lmsans10-bold.otf><c:/texlive/2018/texmf-dist/fonts/opentype/publi
+c/lm/lmroman12-bold.otf>
+Output written on main.pdf (27 pages, 3241815 bytes).
 
-PDF statistics: 173 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 131072)
- 41 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 492 PDF objects out of 1000 (max. 8388607)
+ 358 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 131072)
+ 153 words of extra memory for PDF output out of 10000 (max. 100000000)
 
